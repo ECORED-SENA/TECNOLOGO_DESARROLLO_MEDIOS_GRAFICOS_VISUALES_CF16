@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Medición del color
@@ -13,7 +13,7 @@
         .cajon.color-primario.p-4.mb-4.mb-lg-0
           p.mb-0 La comunicación del color es subjetiva; para percibir el color, el ojo humano requiere de tres elementos: luz, visión y objeto, si no existen estos tres, no se podrá percibir el color. La medición de color hace énfasis en la definición de los esquemas numéricos, con los cuales comunican dicha información electrónicamente, potenciando el control de la impresión.
       .col-lg-6
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img1.png', style="width: 600px").m-auto
     .row.justify-content-center.align-items-center.bg-color2.mb-5
       .col-lg-3.mb-4.mb-lg-0
@@ -43,7 +43,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-3
               p El método con el cual se miden los colores se designa método triestímulo; los colorímetros que utilizan este método están delineados para medir la luz; podría decirse que es la misma forma en el que el ojo humano puede percibir la luz.
     .row.mb-5
-      .col-9.col-lg-4.bg-color3
+      .col-11.col-lg-4.bg-color3
         .p-4
           h3.mb-0.mt-3 El color y sus componentes
     p.mb-5 Es importante contar con tres componentes básicos para que el color exista: luz, visión y objeto. A continuación, profundice en aspectos relevantes y fundamentales sobre estos elementos y su relación con el color:
@@ -84,7 +84,7 @@
         .p-4
           h3.mb-0.mt-3 Tipos de instrumentos
     p.mb-5 En cuanto a los medidores de luz y color, existen dos subcategorías. Las de la primera categoría son herramientas basadas en filtros, mientras que las segundas son herramientas basadas en espectros.
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img9.png', style="width: 700px").m-auto
     p.mb-5 Preste atención a los aspectos que se mencionan a continuación. Procure llevar registro en su libreta personal de apuntes:
     h3.text-center.txt-deco1.mb-5 Instrumentos de medición del color
@@ -147,7 +147,7 @@
           p.text-small(numero="3" titulo="Control de calidad de productos") En caso de comparar dos productos de la industria para comprobar que tengan el 100% del mismo color, se necesita una técnica de medición precisa para comprobar si los colores son repetibles; para ello, es importante realizar un control de calidad con el fin de obtener acertadamente la medición del color.
           p.text-small(numero="4" titulo="En procesos de limpieza") Si se inicia un paso de limpieza (CIP), un sensor de color puede identificar rápidamente si la muestra de color aún está presente en la línea de producción o si las tuberías y los recipientes están limpios.
       .col-lg-4
-        figure.mb-4
+        figure.mb-4(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img9.svg', style="width: 700px").m-auto
         .row
           .col-auto
@@ -161,14 +161,14 @@
               figure
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 1000px").m-auto
     .row.mb-5
-      .col-9.col-lg-4.bg-color3
+      .col-12.col-lg-4.bg-color3
         .p-4
           h3.mb-0.mt-3 Selección del sistema de medición
     .row
       .col-lg-7.mb-4.mb-lg-0
         p Cuando se tiene conocimiento del proceder de la muestra, se podrá elegir la longitud de la onda con el fin de establecer el sensor del tono. En caso de no tener claridad de cuál será la longitud de onda a seleccionar, es importante efectuar un escaneo de extensión de onda VIS con un espectrofotómetro especializado del espectro. #[span.txt-deco1 Se puede elegir la mejor longitud de onda para distinguir la muestra de otras fracciones].
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img10.png', style="width: 600px").m-auto
     p.mb-5 algunos sensores de color cuentan con longitudes de onda específicas:
     figure.mb-5
@@ -201,19 +201,18 @@
             p D: densidad
             p Bx: índice de refracción (p. ej. BRIX)
       .col-lg-4
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img12.png', style="width: 600px").m-auto
     .separador.mb-5
     #t_1_2
     .titulo-segundo.color-secundario
       h2 1.2  Densitómetro y Espectrofotómetro
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in")
       .col-lg-4
         p La colorimetría es una ciencia que trata de medir y cuantificar los colores mediante números, para operar con ellos y deducir características de aquellos colores obtenidos mediante mezclas, a partir de tres colores considerados como primarios.
       .col-lg-8
         .row
           .col-lg-4.bg-color5
-            
           .col-lg-8.bg-color6
             .p-4
               p #[span.txt-deco1 La colorimetría permite saber la cantidad de color primario que se debe mezclar para obtener otros].  Asimismo, estudia aspectos físicos del color, como la longitud de onda dominante (tono), la pureza de la excitación (saturación) y luminancia (brillo de los cuerpos que emiten luz y claridad de los cuerpos que reflejan la luz).
@@ -286,7 +285,7 @@
                 p.text-center #[b Valores más altos o más bajos de matiz]
                 p Si se encuentran valores más altos de matiz o grisura de las tintas en otro lote impreso, se puede saber con certeza que el tono de la impresión será diferente, lo que resultará en una mala calidad de impresión y posiblemente la decisión de devolver el producto.
     .row.mb-5
-      .col-9.col-lg-4.bg-color3
+      .col-11.col-lg-4.bg-color3
         .p-4
           h3.mb-0.mt-3 Tipos y usos de densitómetros
     p.mb-5 Principalmente, se encuentran dos tipos de densitómetros:
@@ -345,7 +344,7 @@
           p.mb-0 Estas herramientas están en capacidad de medir cualquier objeto, entre ellos: papeles, líquidos, telas, metales, plásticos, garantizando que el color se conserve estable y consistente desde el momento de realizar la idea inicial hasta la entrega final del producto. La curva de reflectancia espectral proporcionada por un espectrofotómetro a menudo se denomina #[span “huella digital de color”].
         p.mb-0 Tenga en cuenta que la elección del tipo de espectrofotómetro depende de la aplicación que se quiera dar, las funciones requeridas y la portabilidad. Estos tienen variedad de tamaños y pueden ser portátiles o para escritorio. Estos son los tipos de espectrofotómetros más comunes y usados:
       .col-lg-6.mb-5
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema1/img18.png', style="width: 500px").m-auto
     .row.bg-color4.mb-5
       .col-12.px-5
@@ -384,7 +383,7 @@
           p.text-small(numero="6" titulo="Registrador") Transforma el fenómeno físico en números iguales al analito, que es el componente (elemento, compuesto o ion) en cuestión de estudio.
           p.text-small(numero="7" titulo="Fotodetectores") Son instrumentos modernos, cuentan con una serie de 16 fotodetectores que detectan, simultáneamente, señales en 16 longitudes de onda, permitiendo cubrir el espectro visible, reduciendo los tiempos de medida.
       .col-lg-4
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img22.png', style="width: 500px").m-auto
     .separador.mb-5
     #t_1_3
@@ -407,7 +406,7 @@
                     span(style="color: #000000 !important") Descargar
                     i(style="color: #000000 !important").fas.fa-file-download
       .col-lg-4
-        figure
+        figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img23.png', style="width: 500px").m-auto
   
 </template>
