@@ -19,7 +19,7 @@
           p.mb-0 Sea bienvenido al estudio de este componente formativo #[span.txt-deco1 “Control de calidad del color”]. Para comenzar, explore el recurso que a continuación se presenta. #[span.txt-deco1 ¡Adelante y éxitos en esta experiencia!]
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/GoSXXRDhXC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-center
       .col-auto
         figure

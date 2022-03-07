@@ -209,7 +209,7 @@
         p Para profundizar en los elementos clave de las fases del proceso de producción gráfica, explore el recurso que se muestra a continuación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TxWr2PiJ0R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5
       .col-lg-4
         figure.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -230,7 +230,7 @@
     p.mb-5 Visualice el video que aquí se propone; fue elaborado para que usted ahonde en los aspectos y elementos más importantes de la producción gráfica. ¡Adelante!
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/-GO_Y76R6kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .separador.mb-5
     #t_2_3
     .titulo-segundo.color-secundario
@@ -575,7 +575,7 @@
     p.mb-5 Afiance los conceptos y acciones operativas relacionados con la creación de archivos PDF para impresión en #[i software] de diseño. Observe el vídeo que aquí se propone.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/v2tHOqnqh60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-end.mb-5
       .col-lg-8
         .row.mb-4

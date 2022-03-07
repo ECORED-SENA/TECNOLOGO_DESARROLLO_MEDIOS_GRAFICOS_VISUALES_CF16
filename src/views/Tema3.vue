@@ -19,7 +19,7 @@
     p.mb-5 A continuación, ahonde en las generalidades y aspectos clave de las principales áreas de trabajo de impresión y de los estándares de impresión:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/AWJoSe3euUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_3_1
     .titulo-segundo.color-secundario
       h2 3.1 Densidad tonal
