@@ -104,12 +104,15 @@
           .row(titulo="Parches con trama")
             .col-12
               p Porcentaje de puntos representativos que, generalmente, se eligen como 25 %, 40 %, 50 % 75 % y 80 %, los cuales se encargan de vigilar el proceso de impresión y la ganancia de punto que se obtiene en el proceso.
+          .row(titulo="Parches de atrape")
+            .col-12
+              p Usados para trabajos de selección CMYK. Se componen de un 100% de dos de los tres colores de selección; este tipo de parche se utiliza para comprobar la consistencia de las propiedades mecánicas de las tintas seleccionadas cuando interactúan entre sí.
           .row(titulo="Parches de balance de grises")
             .col-12
               p Se encargan de ser neutros al momento de imprimir. Sólo se utilizan en tiras de frecuencia para trabajos de selección y se utilizan, principalmente, para certificados de clase G7.
           .row(titulo="Parches de deslizamiento y doblado")
             .col-12
-              p usados para establecer la ganancia de punto agregado que se genera a partir de una falla en el envío y la recepción de pliegos entre los módulos de impresión.
+              p Usados para establecer la ganancia de punto agregado que se genera a partir de una falla en el envío y la recepción de pliegos entre los módulos de impresión.
           .row(titulo="Densitometría")
             .col-12
               p Con la densitometría, se podrá controlar la calidad de impresión, identificando cualquier problema que pueda surgir durante el proceso de impresión. Las mediciones se hacen en pequeñas muestras.

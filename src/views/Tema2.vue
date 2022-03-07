@@ -130,11 +130,7 @@
               li 
                 i.fas.fa-square-full(style="color: #F57C00")
                 |
-                p.mb-0 La previsibilidad de los resultados: a través de la estandarización, mediante la cual se realizan.
-              li 
-                i.fas.fa-square-full(style="color: #F57C00")
-                |
-                p.mb-0 las impresiones para que los valores sean medibles y aplicables en el proceso de producción.
+                p.mb-0 La previsibilidad de los resultados: a través de la estandarización, mediante la cual se realizan  las impresiones para que los valores sean medibles y aplicables en el proceso de producción.
               li 
                 i.fas.fa-square-full(style="color: #F57C00")
                 |
@@ -196,7 +192,7 @@
         .row.align-items-center
           .col-lg-6
             .p-4
-              p.mb-0 La producción gráfica juega un papel muy importante en el campo del diseño gráfico. La diversidad de medios impresos, catálogos, folletos, revistas, prensa y flyers, entre otros, conservan una alta demanda de profesionales que se encarguen de crear y dominar los procesos de producción gráfica, puesto que se requieren conocimientos específicos al momento de diseñar material gráfico.
+              p.mb-0 La producción gráfica juega un papel muy importante en el campo del diseño gráfico. La diversidad de medios impresos, catálogos, folletos, revistas, prensa y #[i flyers], entre otros, conservan una alta demanda de profesionales que se encarguen de crear y dominar los procesos de producción gráfica, puesto que se requieren conocimientos específicos al momento de diseñar material gráfico.
           .col-lg-6
             figure.mb-4.mb-lg-0
               img(src='@/assets/curso/tema2/img5.svg', style="width: 600px").m-auto
@@ -209,7 +205,7 @@
           .col-11.col-lg-6.bg-color3
             .p-4
               h3.mb-0.mt-3 El proceso de producción gráfica
-        p La producción gráfica es un proceso complejo, que integra numerosas fases. Se inicia con la redacción del briefing por parte del cliente y concluye con la entrega del producto impreso.
+        p La producción gráfica es un proceso complejo, que integra numerosas fases. Se inicia con la redacción del #[i briefing] por parte del cliente y concluye con la entrega del producto impreso.
         p Para profundizar en los elementos clave de las fases del proceso de producción gráfica, explore el recurso que se muestra a continuación:
     figure.mb-5
       .video
@@ -477,7 +473,7 @@
     .row.mb-4.mb-lg-0
       .col-lg-7
         p PDF (Portable document format) fue desarrollado por Adobe System y se trata de una herramienta estándar para compartir archivos, publicar en línea e imprimir documentos. Un documento PDF es una copia exacta de un documento original, un archivo de texto, un archivo de diseño gráfico, una imagen, un mapa o incluso un video. Además, se puede proteger con contraseña para restringir el acceso a funciones como la edición y la impresión.
-        p.txt-deco1 Para crear y ver un PDF, se recomienda contar con el software adecuado, instalado en un computador. Adobe Acrobat es la herramienta más conocida y con mejores resultados al momento de enviar los archivos al proceso de impresión.
+        p.txt-deco1 Para crear y ver un PDF, se recomienda contar con el #[i software] adecuado, instalado en un computador. Adobe Acrobat es la herramienta más conocida y con mejores resultados al momento de enviar los archivos al proceso de impresión.
         p A continuación, se mencionan los términos relacionados para una impresión en un formato PDF:
       .col-lg-5
         figure(data-aos="zoom-in-up")
@@ -576,7 +572,7 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img18.svg', style="width: 100px").m-auto
                     p El paso siguiente es abrir el archivo PDF generado y realizar comprobaciones: textos acordes, tamaños, colores, chequear si hay alguna sobreimpresión que no es del arte final y revisar si las imágenes cuentan con la cantidad de color y tinta adecuada.
-    p.mb-5 Afiance los conceptos y acciones operativas relacionados con la creación de archivos PDF para impresión en software de diseño. Observe el vídeo que aquí se propone.
+    p.mb-5 Afiance los conceptos y acciones operativas relacionados con la creación de archivos PDF para impresión en #[i software] de diseño. Observe el vídeo que aquí se propone.
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -586,7 +582,7 @@
           .col-12.col-lg-8.bg-color3
             .p-4
               h3.mb-0.mt-3 Errores frecuentes en PDFs para imprenta
-        p Al momento de llevar un documento a la impresora, es mejor enviar un archivo PDF que un archivo abierto, esto evita el riesgo de problemas como errores tipográficos o errores de enlaces e imágenes, entre otros. Pero, incluso un archivo PDF, debe tener los requisitos mínimos para obtener una impresión precisa del arte final, sin importar qué software utiliza para crearlo.
+        p Al momento de llevar un documento a la impresora, es mejor enviar un archivo PDF que un archivo abierto, esto evita el riesgo de problemas como errores tipográficos o errores de enlaces e imágenes, entre otros. Pero, incluso un archivo PDF, debe tener los requisitos mínimos para obtener una impresión precisa del arte final, sin importar qué #[i software] utiliza para crearlo.
         p Estos son los errores más comunes al momento de hacer el proceso de impresión:
       .col-lg-4
         figure(data-aos="zoom-in-up")
@@ -607,8 +603,8 @@
           th No hay marcas de corte
           td En ocasiones, no se activa la casilla de marcas de los cortes, de igual forma, no se especifican parámetros de distancia entre marcas y los bordes del papel.
         tr
-          th mágenes en RGB
-          td En muchas ocasiones, no se realizan las conversiones de las imágenes del diseño de RGB a CMYK, esto aplica para impresión offset o digital. La mejor manera de convertir imágenes RGB a CMYK es usar Photoshop, ya que combina tonos y colores mejor que cualquier otro programa. Es una buena costumbre abrir todas las imágenes utilizadas en el documento y comprobar, antes de crear el archivo PDF, que estén en formato CMYK.
+          th Imágenes en RGB
+          td En muchas ocasiones, no se realizan las conversiones de las imágenes del diseño de RGB a CMYK, esto aplica para impresión #[i offset] o digital. La mejor manera de convertir imágenes RGB a CMYK es usar Photoshop, ya que combina tonos y colores mejor que cualquier otro programa. Es una buena costumbre abrir todas las imágenes utilizadas en el documento y comprobar, antes de crear el archivo PDF, que estén en formato CMYK.
         tr
           th Elementos cerca de la línea de corte de página
           td En ocasiones, se numera o dejan márgenes en un archivo y se convierte en PDF, lo cual limitará que no se pueda arreglar; para ello, se recomienda cuadrar la paginación o márgenes en el documento previo, con el fin de que no queden elementos cerca de la línea de corte.

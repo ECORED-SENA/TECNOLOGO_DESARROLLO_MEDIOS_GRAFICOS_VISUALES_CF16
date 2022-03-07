@@ -19,24 +19,24 @@
       .col-lg-3.mb-4.mb-lg-0
         h3.mb-0.text-center Tenga en cuenta estos aspectos conceptuales de gran importancia:
       .col-8.col-lg-3.d-flex.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-3
-              p El ojo humano logra ver luz siempre y cuando cuente con un rango visible adecuado; sin embargo, luz no es lo mismo que color.
+              p.mt-4 El ojo humano logra ver luz siempre y cuando cuente con un rango visible adecuado; sin embargo, luz no es lo mismo que color.
               br
               br
               br
       .col-8.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-3
               p La luz podría definirse como la radiación que se encarga de estimular la retina del ojo, posibilitando la visión. Así, se genera una estimulación del ojo humano, el cual transmite al cerebro y este procesa y crea el concepto de color.
       .col-8.col-lg-3
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img4.png')})`}")
@@ -170,9 +170,10 @@
       .col-lg-5
         figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img10.png', style="width: 600px").m-auto
-    p.mb-5 algunos sensores de color cuentan con longitudes de onda específicas:
+    p.mb-5 Algunos sensores de color cuentan con longitudes de onda específicas:
     figure.mb-5
       img(src='@/assets/curso/tema1/img11.png', style="width: 800px").m-auto
+    p.mb-5 Las siguientes son las escalas de color con sus respectivas definiciones:
     .row.mb-5
       .col-lg-8.mb-4.mb-lg-0
         TabsA.color-acento-botones
@@ -217,6 +218,29 @@
             .p-4
               p #[span.txt-deco1 La colorimetría permite saber la cantidad de color primario que se debe mezclar para obtener otros].  Asimismo, estudia aspectos físicos del color, como la longitud de onda dominante (tono), la pureza de la excitación (saturación) y luminancia (brillo de los cuerpos que emiten luz y claridad de los cuerpos que reflejan la luz).
     p.mb-5 Estas son algunas generalidades que usted debe conocer sobre el densitómetro:
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Densidad óptica o grado de oscuridad")
+        .row.align-items-center
+          .col
+            h4 Densidad óptica o grado de oscuridad
+            p El densitómetro es un dispositivo con el cual se puede medir la densidad óptica o grado de oscuridad en materiales semitransparentes o con superficies reflejantes; también se le conoce como espectrodensitómetro.
+          .col-auto
+            img(src='@/assets/curso/tema1/img20.svg', style="width: 100px").m-auto
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Emisión y reflexión de luz")
+        .row.align-items-center
+          .col
+            h4 Emisión y reflexión de luz
+            p El proceso de densitometría hace énfasis en la emisión de luz a un punto específico de la superficie que se encuentre en análisis. Esto se logra a través de una serie de lentes que registran los niveles de emisión y reflexión de la luz.
+          .col-auto
+            img(src='@/assets/curso/tema1/img21.svg', style="width: 100px").m-auto
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Interpretación de los valores")
+        .row.align-items-center
+          .col
+            h4 Interpretación de los valores
+            p La luz resultante es captada por una serie de lectores encargados de interpretar, electrónicamente, los valores. Los resultados obtenidos se comparan con algunas otras referencias y la medición arrojará un resultado final, el cual se reflejará en la pantalla principal.
+          .col-auto
+            img(src='@/assets/curso/tema1/img22.svg', style="width: 100px").m-auto
+    p.mb-5 Las principales lecturas densitométricas son las siguientes:
     .row.justify-content-center.mb-5
       .col-10.col-lg-4
         .p-2
@@ -228,7 +252,7 @@
             .col-12.bg-botton
               .p-4
                 p.text-center #[b Densidad]
-                p Se encarga de hacer una lectura, la cual indica la cantidad de tinta que se deposita sobre una superficie.
+                p.text-center Se encarga de hacer una lectura, la cual indica la cantidad de tinta que se deposita sobre una superficie.
       .col-10.col-lg-4
         .p-2
           .row
@@ -239,7 +263,7 @@
             .col-12.bg-botton
               .p-4
                 p.text-center #[b Ganancia de punto]
-                p Hace referencia a valores establecidos en las ganancias mecánica y óptica, los cuales generan un punto de mayor dimensión de la que tenía, también podría entenderse como imágenes oscuras que tienen un alto nivel de tono.
+                p.text-center Hace referencia a valores establecidos en las ganancias mecánica y óptica, los cuales generan un punto de mayor dimensión de la que tenía, también podría entenderse como imágenes oscuras que tienen un alto nivel de tono.
       .col-10.col-lg-4
         .p-2
           .row
@@ -250,7 +274,7 @@
             .col-12.bg-botton
               .p-4
                 p.text-center #[b Atrape]
-                p Atrape que hace una tinta sobre otra que esté recientemente impresa, es decir, cuando ambas tintas están frescas, esto lo afecta el tono del impreso y por lo general tiende a confundir a un operario, ya que, al momento de observar un impreso, el operario no diferencia con claridad qué tono impreso es. Ello puede generar reprocesos.
+                p.text-center Atrape que hace una tinta sobre otra que esté recientemente impresa, es decir, cuando ambas tintas están frescas, esto lo afecta el tono del impreso y por lo general tiende a confundir a un operario, ya que, al momento de observar un impreso, el operario no diferencia con claridad qué tono impreso es. Ello puede generar reprocesos.
       .col-10.col-lg-4
         .p-2
           .row
@@ -261,7 +285,7 @@
             .col-12.bg-botton
               .p-4
                 p.text-center #[b Balance de grises]
-                p Al momento de realizar una combinación de colores CMYK con todos los valores iguales, se puede producir un gris neutro; cualquier defecto en uno de estos colores durante el proceso de cuatricromía, dará como resultado un color azulado, rojizo, amarillento o gris verdoso, que podrá medirse con un densitómetro.
+                p.text-center Al momento de realizar una combinación de colores CMYK con todos los valores iguales, se puede producir un gris neutro; cualquier defecto en uno de estos colores durante el proceso de cuatricromía, dará como resultado un color azulado, rojizo, amarillento o gris verdoso, que podrá medirse con un densitómetro.
       .col-10.col-lg-4
         .p-2
           .row
@@ -272,7 +296,7 @@
             .col-12.bg-botton
               .p-4
                 p.text-center #[b Error de matiz y grisura de las tintas]
-                p Generalmente, las tintas CMY generan cierto porcentaje de error de matiz (de cian, está contaminado con rojo, magenta muy contaminado con verde, y amarillo, ligeramente con rojo también). Al medir una de estas tintas con un densitómetro, arrojará un valor determinado para cada componente mezclado.
+                p.text-center Generalmente, las tintas CMY generan cierto porcentaje de error de matiz (de cian, está contaminado con rojo, magenta muy contaminado con verde, y amarillo, ligeramente con rojo también). Al medir una de estas tintas con un densitómetro, arrojará un valor determinado para cada componente mezclado.
       .col-10.col-lg-4
         .p-2
           .row
@@ -283,9 +307,9 @@
             .col-12.bg-botton
               .p-4
                 p.text-center #[b Valores más altos o más bajos de matiz]
-                p Si se encuentran valores más altos de matiz o grisura de las tintas en otro lote impreso, se puede saber con certeza que el tono de la impresión será diferente, lo que resultará en una mala calidad de impresión y posiblemente la decisión de devolver el producto.
+                p.text-center Si se encuentran valores más altos de matiz o grisura de las tintas en otro lote impreso, se puede saber con certeza que el tono de la impresión será diferente, lo que resultará en una mala calidad de impresión y posiblemente la decisión de devolver el producto.
     .row.mb-5
-      .col-11.col-lg-4.bg-color3
+      .col-12.col-lg-4.bg-color3
         .p-4
           h3.mb-0.mt-3 Tipos y usos de densitómetros
     p.mb-5 Principalmente, se encuentran dos tipos de densitómetros:
