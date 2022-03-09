@@ -74,25 +74,25 @@
       img(src='@/assets/curso/tema3/img7.png', style="width: 650px").m-auto
     p.mb-5 Tenga en cuenta:
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Medición")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Medición")
         h4 Medición
         p Se debe medir con ellas al configurar la máquina y tomar la primera página, a intervalos regulares, mientras se ejecuta la impresión, para verificar las áreas de volumen para cada color, percentiles 25 y 50, el contraste de impresión y la superposición de colores a granel, y después de los ajustes de tinta o después de parar, para comprobar la relación punto y contraste 25-50%.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Tira de control")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Tira de control")
         h4 Tira de control
         p La tira de control está impresa en un extremo del papel y está destinada a proporcionar al impresor instrucciones sobre la calidad de impresión; se ubica de modo perpendicular a la orientación del papel en la máquina.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Ajustes de campos de tono")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Ajustes de campos de tono")
         h4 Ajustes de campos de tono
         p Las tiras de control ajustan campos de tono lleno y varios campos de trama en las tintas de impresión; cuentan con elementos guía (señales) para el control visual. Algunos impresores modifican y crean tipos especiales de tiras de control para trabajos específicos, pero comúnmente se utilizan algunas convenciones estándar.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Reproducción del color")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Reproducción del color")
         h4 Reproducción del color
         p Las tiras ocupan una pequeña parte del papel de impresión, pero siempre es necesario incluir un mínimo que permita controlar la reproducción del color; este rango mínimo debe incluir, al menos, parches de tono uniforme y un 75% de puntos para cada tinta impresa. El ancho de las tiras de control puede variar de 3 a 12 mm.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Oportunidad de la tira en la impresión")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Oportunidad de la tira en la impresión")
         h4 Oportunidad de la tira en la impresión
         p Para determinar qué tira de control es la apropiada para una impresión de un diseño, es importante tener en cuenta estos cuatro parámetros: ancho máximo de pliego, número de llaves para entintado, ancho de las llaves para entintado y tamaño de parche que puede medir el instrumento.
     .row.mb-5
-      .col-lg-8
+      .col-lg-7
         .row.mb-4
-          .col-12.col-lg-6.bg-color3
+          .col-12.col-lg-5.bg-color3
             .p-4
               h3.mb-0.mt-3 Tipos de parche
         p Los parches son un elemento que se usa para hacer verificación de las particularidades y características que tienen las tintas de selección. Buscan determinar si estas características son las adecuadas cuando interactúan entre sí.
@@ -119,14 +119,14 @@
           .row(titulo="Factores que afectan color de impresión")
             .col-12
               p Las mediciones brindan un diagnóstico de los factores que afectan el color de la impresión, los cuales pueden ser: contraste en la impresión, #[i trapping], error de los tonos, equilibrio de grises, ganancia de punto, comportamiento de las tintas, doble impresión o grisado.
-      .col-lg-4
+      .col-lg-5
         figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema3/img8.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema3/img8.png', style="width: 490px").m-auto
     .row.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-5
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema3/img9.png', style="width: 450px").m-auto
-      .col-lg-8
+          img(src='@/assets/curso/tema3/img9.png', style="width: 484 .0px").m-auto
+      .col-lg-7
         .row.mb-4
           .col-12.col-lg-6.bg-color3
             .p-4

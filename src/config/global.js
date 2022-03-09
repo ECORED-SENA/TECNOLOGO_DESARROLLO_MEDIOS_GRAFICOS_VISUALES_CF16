@@ -317,18 +317,18 @@ export default {
       },
       {
         nombre: 'Carlos Suescun',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
       },
       {
         nombre: 'Gloria Amparo López escudero',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {

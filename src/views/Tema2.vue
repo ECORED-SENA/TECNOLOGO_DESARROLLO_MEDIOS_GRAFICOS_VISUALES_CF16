@@ -115,7 +115,7 @@
                         |
                         p #[b Tipo de tramado]: puede ser convencional o am, estocástico o fm e híbrido (fm en altas luces y transición y am en medios tonos y sombras).
         .row.mb-5
-          .col-11.col-lg-4.bg-color3
+          .col-8.col-lg-5.bg-color3
             .p-4
               h3.mb-0.mt-3 Influencia de los materiales
         .row.mb-5
@@ -151,7 +151,7 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img3.svg', style="width: 100px").m-auto
                     p.text-center.mb-4 #[b.txt-deco1 ¡Atención!]
-                    p La estandarización pretende sustituir la valoración subjetiva por unos parámetros objetivos que se ajusten a unos niveles consensuados o estándares, que son algo dinámico. Existen organismos que se dedican a esta función.
+                    p.text-center La estandarización pretende sustituir la valoración subjetiva por unos parámetros objetivos que se ajusten a unos niveles consensuados o estándares, que son algo dinámico. Existen organismos que se dedican a esta función.
             .col-lg-6.bg-div
               .p-4
                 .row
@@ -159,7 +159,7 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img4.svg', style="width: 100px").m-auto
                     p.text-center.mb-4 #[b.txt-deco1 ¡Importante!]
-                    p La estandarización tiene como objetivo dar los parámetros objetivos con niveles normativos, haciendo que se establezcan las especificaciones básicas, definiendo las características visuales de la forma y su rango de tolerancia. De esto surgen estándares como ISO 12647.
+                    p.text-center La estandarización tiene como objetivo dar los parámetros objetivos con niveles normativos, haciendo que se establezcan las especificaciones básicas, definiendo las características visuales de la forma y su rango de tolerancia. De esto surgen estándares como ISO 12647.
     #t_2_1
     .titulo-segundo.color-secundario
       h2 2.1 Control de procesos previos
@@ -236,7 +236,7 @@
     .titulo-segundo.color-secundario
       h2 2.3 Organización de ficheros
     .row.mb-5
-      .col-lg-8
+      .col-lg-7
         p Un fichero o archivo de datos es una recopilación de registros, afines entre sí, con aspectos en común y organizados con un propósito concreto.
         p.txt-deco1 Un fichero, en un ordenador, es una estructura creada para la contención de datos; y se encuentra organizado de tal manera que se puede recuperar, actualizar, eliminar y volver a almacenar fácilmente en el archivo con cualquier cambio realizado.
         .row.mb-4
@@ -245,7 +245,7 @@
               h3.mb-0.mt-3 Organización de archivos
         p Cuando se habla de archivos u organización de archivos, se hace referencia a los soportes, en medio físico, donde se almacenan los datos. En la gestión de ficheros, suele haber dos tipos principales de soportes: soportes secuenciales y soportes direccionables.
         p En la organización de archivos o ficheros, se deben tener en cuenta los siguientes aspectos:
-      .col-lg-4
+      .col-lg-5
         figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img6.png', style="width: 600px").m-auto
     .row.bg-color4.mb-5
@@ -309,12 +309,12 @@
               .bloque-texto-a__texto.p-4
                 p La organización de ficheros define cómo se organizan los registros en los medios de almacenamiento; o la organización también define cómo se organizan los datos en el archivo.
     .row.mb-4
-      .col-lg-4
+      .col-lg-5
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img13.png', style="width: 600px").m-auto
-      .col-lg-8
+      .col-lg-7
         .row.mb-4
-          .col-9.col-lg-5.bg-color3
+          .col-9.col-lg-8.bg-color3
             .p-4
               h3.mb-0.mt-3 Organización secuencial
         p Un fichero de organización secuencial es una continuación de registros que se encuentran almacenados, consecutivamente, sobre el soporte externo. Para poder acceder a un registro #[span.txt-deco1 N] transmitido es necesario recorrer todos los #[span.txt-deco1 N-1] artículos que le anteceden.
@@ -337,22 +337,24 @@
         .p-4
           h3.mb-0.mt-3 Organización directa
     .row.mb-4.mb-lg-0
-      .col-lg-8
+      .col-lg-7
         p En los ficheros que se organizan con carácter directo, puede no coincidir el orden físico con el orden lógico. Los datos están en el archivo y se puede acceder directamente a ellos de forma aleatoria, según su ubicación, es decir, la ubicación relativa que ocupa.
         p.txt-deco1 La organización directa ofrece la gran ventaja de que los registros pueden ser leídos y escritos en cualquier posición y orden. De igual forma, se puede acceder muy rápido a la información que contienen. La organización directa tiene el inconveniente de tener que programar la relación entre el contenido del registro y la ubicación que ocupa.
         p.mb-4 Estos son otros aspectos que, sobre la organización directa, usted debe tener en cuenta:
         SlyderF.mb-5(columnas="col-12 col-lg-6")
           .tarjeta.color-secundario.p-4
             .row.justify-content-center.mb-3
-              .col-8
+              .col-8|
                 img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
             p.text-center Acceder a los registros en modo directo significa que puede haber espacios libres en el entorno y, por lo tanto, puede haber espacios entre los registros.
-            br.mb-3
+            br
+            br
+            br
           .tarjeta.color-secundario.p-4
             .row.justify-content-center.mb-3
               .col-8.mb-3
                 img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
-            p.text-center.mb-4 Un fichero de organización directa debe estar almacenado en un soporte direccionable. Los registros deben tener un campo específico llamado clave que identifique de forma única cada registro.
+            p.text-center.mb-5 Un fichero de organización directa debe estar almacenado en un soporte direccionable. Los registros deben tener un campo específico llamado clave que identifique de forma única cada registro.
           .tarjeta.color-secundario.p-4
             .row.justify-content-center.mb-3
               .col-8
@@ -360,7 +362,7 @@
             p.text-center Dos registros diferentes no pueden tener el mismo valor de clave.
             br
             br
-            br.mb-4
+            br.mb-5
           .tarjeta.color-secundario.p-4
             .row.justify-content-center.mb-3
               .col-8
@@ -374,7 +376,8 @@
             br
             br
             br
-      .col-lg-4
+            br.mb-3
+      .col-lg-5
         figure
           img(src='@/assets/curso/tema2/img6.svg', style="width: 600px").m-auto
     .row.bg-color9.mb-5
@@ -388,8 +391,8 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img8.svg', style="width: 100px").m-auto
                     p.text-center.mb-4 #[b.txt-deco1 ¡Tenga en cuenta!]
-                    p Cuadro de diálogo que despliega la siguiente información:
-                    p En la experiencia, el encargado de programar no gestiona direcciones absolutas, sino direcciones referentes, de acuerdo con el comienzo del archivo.
+                    p.text-center Cuadro de diálogo que despliega la siguiente información:
+                    p.text-center En la experiencia, el encargado de programar no gestiona direcciones absolutas, sino direcciones referentes, de acuerdo con el comienzo del archivo.
             .col-lg-4.bg-div
               .p-4
                 .row
@@ -397,8 +400,8 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img3.svg', style="width: 100px").m-auto
                     p.text-center.mb-4 #[b.txt-deco1 ¡Atención!]
-                    p Cuadro de diálogo que despliega la siguiente información:
-                    p La operación de direcciones admite diseñar el programa con autonomía de la posición absoluta del archivo en el soporte.
+                    p.text-center Cuadro de diálogo que despliega la siguiente información:
+                    p.text-center La operación de direcciones admite diseñar el programa con autonomía de la posición absoluta del archivo en el soporte.
             .col-lg-4.bg-div
               .p-4
                 .row
@@ -406,8 +409,8 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img4.svg', style="width: 100px").m-auto
                     p.text-center.mb-4 #[b.txt-deco1 ¡Importante!]
-                    p Cuadro de diálogo que despliega la siguiente información:
-                    p El programador crea una relación bien definida entre el enrutamiento principal de cada registro y su ubicación física en el dispositivo de almacenamiento.
+                    p.text-center Cuadro de diálogo que despliega la siguiente información:
+                    p.text-center El programador crea una relación bien definida entre el enrutamiento principal de cada registro y su ubicación física en el dispositivo de almacenamiento.
     .row.mb-5
       .col-lg-4
         figure(data-aos="zoom-in")
@@ -429,7 +432,7 @@
     .row.bg-color10.mb-5
       .col-12.px-5
         .row.align-items-end
-          .col-lg-8.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0
             ul.lista-ul
               li 
                 i.fas.fa-square-full(style="color: #F57C00")
@@ -463,14 +466,14 @@
                   img(src='@/assets/curso/tema2/img8.svg', style="width: 100px").m-auto
                 p.text-center.txt-deco1 ¡Tenga en presente!
                 p.text-center Funcionalmente, el espacio del índice es equivalente al índice del libro. Refleja el valor de clave más alto definido para cada grupo de registros en el archivo y la dirección de almacenamiento del grupo.
-          .col-lg-4
+          .col-lg-5
             figure(data-aos="zoom-in-up")
-              img(src='@/assets/curso/tema2/img15.png', style="width: 450px").m-auto
+              img(src='@/assets/curso/tema2/img15.png', style="width: 480px").m-auto
     .separador.mb-5
     #t_2_4
     .titulo-segundo.color-secundario
       h2 2.4 Generación de PDF
-    .row.mb-4.mb-lg-0
+    .row.mb-5
       .col-lg-7
         p PDF (Portable document format) fue desarrollado por Adobe System y se trata de una herramienta estándar para compartir archivos, publicar en línea e imprimir documentos. Un documento PDF es una copia exacta de un documento original, un archivo de texto, un archivo de diseño gráfico, una imagen, un mapa o incluso un video. Además, se puede proteger con contraseña para restringir el acceso a funciones como la edición y la impresión.
         p.txt-deco1 Para crear y ver un PDF, se recomienda contar con el #[i software] adecuado, instalado en un computador. Adobe Acrobat es la herramienta más conocida y con mejores resultados al momento de enviar los archivos al proceso de impresión.
@@ -478,7 +481,8 @@
       .col-lg-5
         figure(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema2/img11.svg', style="width: 450px").m-auto
-      .col-lg-7
+    .row.mb-5
+      .col-lg-6
         .row.align-items-center.mb-4
           .col-auto
             figure
@@ -519,9 +523,9 @@
             .p-4
               p.mb-4 #[b Marcas de registro] 
               p Hace la función de indicador, el cual supone un color sobre otro al momento de imprimir un trabajo a color.
-      .col-lg-5
+      .col-lg-6
         figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema2/img16.png', style="width: 450px").m-auto
+          img(src='@/assets/curso/tema2/img16.png', style="width: 550px").m-auto
     p.mb-5 Cabe resaltar que los procesadores de texto, como MS-Word, no pueden generar PDF con marcas ni área de sangrado, puesto que dichos programas no son desarrollados para artes gráficas; por tal razón, no pueden desarrollar estas opciones.
     .row.bg-color9.mb-5
       .col-12.px-5
@@ -534,7 +538,7 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img3.svg', style="width: 100px").m-auto
                     p.text-center.mb-4 #[b.txt-deco1 ¡Atención!]
-                    p Al momento de llevar el arte final a una imprenta, el operario podrá solicitar los archivos a imprimir con marcas de impresión; sin embargo, no será necesario incluir todas las marcas que están disponibles en los programas de diseño.
+                    p.text-center Al momento de llevar el arte final a una imprenta, el operario podrá solicitar los archivos a imprimir con marcas de impresión; sin embargo, no será necesario incluir todas las marcas que están disponibles en los programas de diseño.
             .col-lg-4.bg-div
               .p-4
                 .row
@@ -542,14 +546,14 @@
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img4.svg', style="width: 100px").m-auto
                     p.text-center.mb-4 #[b.txt-deco1 ¡Muy importante!]
-                    p Lo que se busca es incorporar las marcas necesarias para elaborar la impresión, siendo las más importantes las marcas de corte, registro y sangrado.
+                    p.text-center Lo que se busca es incorporar las marcas necesarias para elaborar la impresión, siendo las más importantes las marcas de corte, registro y sangrado.
     .row.mb-5
       .col-lg-4
         figure
           img(src='@/assets/curso/tema2/img17.svg', style="width: 450px").m-auto
       .col-lg-8
         .row.mb-4
-          .col-12.col-lg-6.bg-color3
+          .col-12.col-lg-8.bg-color3
             .p-4
               h3.mb-0.mt-3 Crear un archivo PDF para imprenta
         p Existen varias formas de crear un archivo PDF adecuado para poder imprimir documentos y artes finales en el ámbito del diseño y sus vertientes; el estándar que más se ha utilizado en artes gráficas es el PDF/X, esta es la forma recomendada para llevar un proyecto de una empresa a la imprenta.
@@ -564,14 +568,14 @@
                   .col-12
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img18.svg', style="width: 100px").m-auto
-                    p De igual forma, estar en colores CMYK y prestar atención al tamaño de la página, evitando que se reduzca al momento de ser manipulada.
+                    p.text-center De igual forma, estar en colores CMYK y prestar atención al tamaño de la página, evitando que se reduzca al momento de ser manipulada.
             .col-lg-4.bg-div
               .p-4
                 .row
                   .col-12
                     figure.mb-4
                       img(src='@/assets/curso/tema2/img18.svg', style="width: 100px").m-auto
-                    p El paso siguiente es abrir el archivo PDF generado y realizar comprobaciones: textos acordes, tamaños, colores, chequear si hay alguna sobreimpresión que no es del arte final y revisar si las imágenes cuentan con la cantidad de color y tinta adecuada.
+                    p.text-center El paso siguiente es abrir el archivo PDF generado y realizar comprobaciones: textos acordes, tamaños, colores, chequear si hay alguna sobreimpresión que no es del arte final y revisar si las imágenes cuentan con la cantidad de color y tinta adecuada.
     p.mb-5 Afiance los conceptos y acciones operativas relacionados con la creación de archivos PDF para impresión en #[i software] de diseño. Observe el vídeo que aquí se propone.
     figure.mb-5
       .video

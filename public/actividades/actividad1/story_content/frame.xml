@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="SENA - Actividad Did&amp;#225;ctica CF13" />
+              <option name="title_text" value="SENA - Actividad Did&amp;#225;ctica CF16" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1240,11 +1240,16 @@
         <slidelink slideid="_player.6iPYYXYye9N" displaytext="Escena sin título" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6iPYYXYye9N.60B7h4FKhhU" displaytext="Diapositiva sin título" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="¿Qué elementos o productos hacen parte de publicaciones Epub?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5VN3UEYPsYy" displaytext="¿Cuál de estos conceptos no hace parte del proceso de pre producción?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.6nTJNIrwzv9" displaytext="¿Cuál de estos elementos no se considera parte de la arquitectura de la información?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5c6EMqH0BIf" displaytext="¿Qué elementos no hacen parte del diseño de herramientas digitales?" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.668GBxEKOWP" displaytext="Según la arquitectura de la información, ¿Cuáles se consideran tipos de estructura?" expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6EdoTcI4Roc" displaytext="Un PDF es una herramienta estándar con la cual se puede: compartir archivos, publicar en línea e imprimir documentos de diseño gráfico, imágenes, mapas o incluso videos. " expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6HjyS6mlJ4G" displaytext="Cuando se habla de conversión de perfiles de color, se especifica un solo perfil, el cual es de origen y se denomina perfil de color CMYK." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6UVYWeFHrqQ" displaytext="La calibración es el proceso de ajustar los valores estándar para obtener resultados precisos, en color para un arte final." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.69Rp8HBwXDY" displaytext="Un densitómetro es un dispositivo colorimétrico utilizado para obtener y evaluar colores, hace énfasis en un programa de control del color, esta herramienta está en capacidad de medir cualquier objeto, entre ellos: papeles, líquidos, telas, metales, plásticos, garantizando que el color se conserve estable y consistente al momento de realizar la idea inicial hasta la entrega final del producto." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6hLnxMnNq5G" displaytext="Los tres componentes básicos para que el color exista son: proyección de luz, un objeto que interactúe con la luz y una longitud de onda corta." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5z3buyFhJCu" displaytext="Los densitómetros de transmisión son los encargados de realizar la medición de la luz, la cual cuenta con la capacidad de transmitir a una superficie transparente." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6nHRgwWyV2f" displaytext="Las tiras de control se encargan de ajustar campos de tono lleno y campos de trama en las tintas de impresión, cuentan con elementos guía para el control visual. " expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5y88y2WE70T" displaytext="La densidad es un término utilizado en la impresión gráfica que hace referencia a la diferencia de puntos resultante entre el punto de la trama en la plancha y el punto que la impresora reproduce durante el proceso de impresión." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.6Og06IvkPzs" displaytext="Un fichero en un ordenador es una organización creada para la contención de datos, el cual se encuentra organizado de tal manera que se puede recuperar, actualizar, eliminar y volver a almacenar fácilmente en el archivo con cualquier cambio realizado." expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5UmY9Fc2NkA" displaytext="Las lecturas densitometrías cuentan con las siguientes características: cubetas de densitometría, fuentes de luz, monocromador, compartimiento de muestra, detector registrador, fotodetectores. " expand="false" type="slide" />
           </links>
         </slidelink>
       </links>

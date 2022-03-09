@@ -9,7 +9,7 @@
       h1 Medición del color
     .row.align-items-center.mb-5
       .col-lg-6
-        p Podría afirmarse que el color es una imagen especulativa del mismo, con el fin de poder percibirlo y determinar cuáles serían las palabras precisas que se ajustan para asimilarlo, es decir, al momento de escuchar la descripción de un color, la mente, muy fácilmente, hace un retrato mental. No obstante, la pregunta sería: ¿lo que se cree, acerca de un color, es exactamente igual a lo que se ve?
+        p Podría afirmarse que el color es una imagen especulativa del mismo, con el fin de poder percibirlo y determinar cuáles serían las palabras precisas que se ajustan para asimilarlo, es decir, al momento de escuchar la descripción de un color, la mente, muy fácilmente, hace un retrato mental. No obstante, la pregunta sería: ¿lo que se cree, acerca de un color, es exactamente igual a lo que se ve?.
         .cajon.color-primario.p-4.mb-4.mb-lg-0
           p.mb-0 La comunicación del color es subjetiva; para percibir el color, el ojo humano requiere de tres elementos: luz, visión y objeto, si no existen estos tres, no se podrá percibir el color. La medición de color hace énfasis en la definición de los esquemas numéricos, con los cuales comunican dicha información electrónicamente, potenciando el control de la impresión.
       .col-lg-6
@@ -22,7 +22,7 @@
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.png')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-3
               p.mt-4 El ojo humano logra ver luz siempre y cuando cuente con un rango visible adecuado; sin embargo, luz no es lo mismo que color.
               br
@@ -32,7 +32,7 @@
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-3
               p La luz podría definirse como la radiación que se encarga de estimular la retina del ojo, posibilitando la visión. Así, se genera una estimulación del ojo humano, el cual transmite al cerebro y este procesa y crea el concepto de color.
       .col-8.col-lg-3
@@ -149,7 +149,7 @@
       .col-lg-4
         figure.mb-4(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema1/img9.svg', style="width: 700px").m-auto
-        .row
+        .row.justify-content-end
           .col-auto
             a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
               span Ampliar 
@@ -207,7 +207,7 @@
     .separador.mb-5
     #t_1_2
     .titulo-segundo.color-secundario
-      h2 1.2  Densitómetro y Espectrofotómetro
+      h2 1.2  Densitómetro y espectrofotómetro
     .row.mb-5(data-aos="zoom-in")
       .col-lg-4
         p La colorimetría es una ciencia que trata de medir y cuantificar los colores mediante números, para operar con ellos y deducir características de aquellos colores obtenidos mediante mezclas, a partir de tres colores considerados como primarios.
@@ -219,21 +219,21 @@
               p #[span.txt-deco1 La colorimetría permite saber la cantidad de color primario que se debe mezclar para obtener otros].  Asimismo, estudia aspectos físicos del color, como la longitud de onda dominante (tono), la pureza de la excitación (saturación) y luminancia (brillo de los cuerpos que emiten luz y claridad de los cuerpos que reflejan la luz).
     p.mb-5 Estas son algunas generalidades que usted debe conocer sobre el densitómetro:
     TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Densidad óptica o grado de oscuridad")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Densidad óptica o grado de oscuridad")
         .row.align-items-center
           .col
             h4 Densidad óptica o grado de oscuridad
             p El densitómetro es un dispositivo con el cual se puede medir la densidad óptica o grado de oscuridad en materiales semitransparentes o con superficies reflejantes; también se le conoce como espectrodensitómetro.
           .col-auto
             img(src='@/assets/curso/tema1/img20.svg', style="width: 100px").m-auto
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Emisión y reflexión de luz")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Emisión y reflexión de luz")
         .row.align-items-center
           .col
             h4 Emisión y reflexión de luz
             p El proceso de densitometría hace énfasis en la emisión de luz a un punto específico de la superficie que se encuentre en análisis. Esto se logra a través de una serie de lentes que registran los niveles de emisión y reflexión de la luz.
           .col-auto
             img(src='@/assets/curso/tema1/img21.svg', style="width: 100px").m-auto
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Interpretación de los valores")
+      .tarjeta.color-acento-botones--borde.p-5(titulo="Interpretación de los valores")
         .row.align-items-center
           .col
             h4 Interpretación de los valores
@@ -322,13 +322,13 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img14.png', style="width: 300px").m-auto
                 p.text-center #[b Densitómetros de reflexión]
-                p Realizan medidas de acuerdo con la cantidad de reflexión de luz que se encuentra sobre las superficies opacas de los materiales que han sido impresos. De igual forma, se pueden localizar aquellos que realizan lecturas a color.
+                p.text-center Realizan medidas de acuerdo con la cantidad de reflexión de luz que se encuentra sobre las superficies opacas de los materiales que han sido impresos. De igual forma, se pueden localizar aquellos que realizan lecturas a color.
             .col-lg-4.bg-color7.d-flex
               .p-4
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img15.png', style="width: 300px").m-auto
                 p.text-center #[b Densitómetros de transmisión]
-                p Son aquellos que se encargan de medir la luz que una superficie transparente tiene la capacidad de transmitir.
+                p.text-center Son aquellos que se encargan de medir la luz que una superficie transparente tiene la capacidad de transmitir.
     .row.bg-color9.mb-5
       .col-12.px-5
         .p-4
@@ -339,11 +339,11 @@
                 .row
                   .col-12.bg-top1
                     p.text-center.mb-4 #[b.txt-deco1 En fotografía]
-                    p Establece cuál es el tipo de papel adecuado a utilizar cuando se va a realizar una impresión o un revelado.
-                    p Determina la medición adecuada de los negativos.
-                    p Establece la medición de la saturación de los colores durante el proceso de la impresión.
-                    p Determina el tiempo de exposición que se requiere cuando se va a realizar una impresión o un revelado.
-                    p Al momento de obtener la correcta calibración de los equipos y materiales a utilizar, el resultado será lo que el fotógrafo desea conseguir con la fotografía.
+                    p.text-center Establece cuál es el tipo de papel adecuado a utilizar cuando se va a realizar una impresión o un revelado.
+                    p.text-center Determina la medición adecuada de los negativos.
+                    p.text-center Establece la medición de la saturación de los colores durante el proceso de la impresión.
+                    p.text-center Determina el tiempo de exposición que se requiere cuando se va a realizar una impresión o un revelado.
+                    p.text-center Al momento de obtener la correcta calibración de los equipos y materiales a utilizar, el resultado será lo que el fotógrafo desea conseguir con la fotografía.
                   .col-12
                     figure
                       img(src='@/assets/curso/tema1/img16.png', style="width: 400px").m-auto
@@ -352,8 +352,8 @@
                 .row
                   .col-12.bg-top1
                     p.text-center.mb-4 #[b.txt-deco1 En impresión]
-                    p Permite un mejor control de la calidad de la saturación del color en el momento de la impresión. En este caso, se utiliza un densitómetro para determinar el estándar de medición de la tinta utilizada.
-                    p Existen varios métodos que no pueden aplicar los valores del densitómetro, por lo que dependen de los valores obtenidos del colorímetro, esto se debe especialmente a que sus resultados son precisos.
+                    p.text-center Permite un mejor control de la calidad de la saturación del color en el momento de la impresión. En este caso, se utiliza un densitómetro para determinar el estándar de medición de la tinta utilizada.
+                    p.text-center Existen varios métodos que no pueden aplicar los valores del densitómetro, por lo que dependen de los valores obtenidos del colorímetro, esto se debe especialmente a que sus resultados son precisos.
                   .col-12
                     figure
                       img(src='@/assets/curso/tema1/img17.png', style="width: 400px").m-auto
@@ -361,11 +361,11 @@
       .col-9.col-lg-4.bg-color3
         .p-4
           h3.mb-0.mt-3 Espectrofotómetros
-    .row.align-items-center
+    .row.align-items-center.mb-5
       .col-lg-6
         p.mb-4 Un espectrofotómetro es un dispositivo colorimétrico utilizado para conseguir y evaluar colores. Hace énfasis en un programa de control del color; los dueños y diseñadores de marcas lo utilizan para identificar y comunicar los colores determinados y los fabricantes lo utilizan para controlar la precisión del color durante todo el proceso de producción.
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 Estas herramientas están en capacidad de medir cualquier objeto, entre ellos: papeles, líquidos, telas, metales, plásticos, garantizando que el color se conserve estable y consistente desde el momento de realizar la idea inicial hasta la entrega final del producto. La curva de reflectancia espectral proporcionada por un espectrofotómetro a menudo se denomina #[span “huella digital de color”].
+          p.mb-0 Estas herramientas están en capacidad de medir cualquier objeto, entre ellos: papeles, líquidos, telas, metales, plásticos, garantizando que el color se conserve estable y consistente desde el momento de realizar la idea inicial hasta la entrega final del producto. La curva de reflectancia espectral proporcionada por un espectrofotómetro a menudo se denomina #[span.txt-deco1 “huella digital de color”].
         p.mb-0 Tenga en cuenta que la elección del tipo de espectrofotómetro depende de la aplicación que se quiera dar, las funciones requeridas y la portabilidad. Estos tienen variedad de tamaños y pueden ser portátiles o para escritorio. Estos son los tipos de espectrofotómetros más comunes y usados:
       .col-lg-6.mb-5
         figure(data-aos="zoom-in")
