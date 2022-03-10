@@ -44,109 +44,109 @@
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
             .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")
          
-
-    .row.bg-gradient
-      .col-12.px-5
-        p.my-5 A continuación, entérese de cuáles son los instrumentos más relevantes para evaluar la calidad de un proceso gráfico, los cuales se encuentran diferenciados así: dispositivos para medición y control de materiales, medidores en los equipos e indicadores de control de calidad:
-        .row.mb-5
-          .col-lg-4.mb-4.mb-lg-0
-            figure
-              img(src='@/assets/curso/tema2/img2.svg', style="width: 450px").m-auto
-          .col-lg-8
-            AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
-              .row(titulo="Dispositivos para medición y control de materiales")
-                .col-12
-                  .p-4
-                    ul.lista-ul
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Higrómetro de espada]: mide humedad de pilas, excesos de problemas de registro y defectos de problemas de plegado.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Micrómetro]: mide volumen de materiales.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Medidor de pH]: mide el potencial de hidrógeno de recursos de mojado y de papel.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Conductímetro]: hace una relación del paso de corriente con el aspecto de un nivel determinado de sales.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p #[b Medidor de gramaje]: mide peso del papel, de acuerdo con su unidad de superficie, la cual está dada en gramos.
-              .row(titulo="Medidores en los equipos")
-                .col-12
-                  .p-4
-                    ul.lista-ul
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Medidor de presión] plancha-mantilla.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Medidor de espesor de tinta]: hace referencia a la medida de rodillo distribuidor de la batería de entintado.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Galgas para ajuste de rodillos]: se encarga de medir la presión sobre la plancha.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p #[b Durómetro]: mide la dureza de los rodillos de tinta en grados SHORE, con una escala de 0 a 100.
-              .row(titulo="Dispositivos para medición y control de materiales")
-                .col-12
-                  .p-4
-                    ul.lista-ul
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Tiras de control]: conjunto de imágenes de prueba longitudinales para medir y controlar parámetros de impresión, como la densidad. Se deben usar al momento de hacer pruebas y formas (grafías) de impresos para cada función.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Tramado]: cuenta con una serie de indicadores que definen la calidad de la trama (imágenes retocadas en pantalla con el fin de ser impresas).
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Resolución del dispositivo de salida]: spots por pulgada (número de unidades mínimas que puede dibujar el dispositivo).
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p.mb-0 #[b Lineatura (lpi)]: forma del punto, puede ser redondo, cuadrado o elíptico. Es importante utilizar mezclas de las formas.
-                      li 
-                        i.fas.fa-square-full(style="color: #F57C00")
-                        |
-                        p #[b Tipo de tramado]: puede ser convencional o am, estocástico o fm e híbrido (fm en altas luces y transición y am en medios tonos y sombras).
-        .row.mb-5
-          .col-auto.bg-color3
-            h3 Influencia de los materiales
-        .row.mb-5
-          .col-lg-8
-            p La evaluación puede basarse en dos tipos de parámetros: #[span.txt-deco1 la calidad de la copia], en términos de qué tan precisa es con respecto al original, y en #[span.txt-deco1 aplicabilidad]; de esta forma, los aspectos cualitativos se pueden agrupar con los que estén relacionados con la estructura (registro, escalado, soporte, tramado), de acuerdo con el comportamiento de la tinta (transparencia, diferencia de color, nivel de grises), para la transmisión de imágenes (ganancia, ajuste fino, contraste) y color de la imagen (equilibrio, intensidad).
-            p.txt-deco1.mb-5 El progreso hacia el cambio cultural se atribuye, técnicamente, a la calidad general de poder medir a través del equipo apropiado:
-            ul.lista-ul
-              li 
-                i.fas.fa-square-full(style="color: #F57C00")
-                |
-                p.mb-0 La coherencia entre los métodos.
-              li 
-                i.fas.fa-square-full(style="color: #F57C00")
-                |
-                p.mb-0 La previsibilidad de los resultados: a través de la estandarización, mediante la cual se realizan  las impresiones para que los valores sean medibles y aplicables en el proceso de producción.
-              li 
-                i.fas.fa-square-full(style="color: #F57C00")
-                |
-                p La consistencia y/o uniformidad en la calidad de los gráficos, sin importar dónde se impriman.
-          .col-lg-4
-            .titulo-sexto.color-acento-contenido
-              p.mb-0.text-small Programas de estandarización de la calidad y del control del producto
-            figure(data-aos="zoom-in-up")
-              img(src='@/assets/curso/tema2/img2.png', style="width: 450px").m-auto
+    .bg-gradient
+      .row
+        .col-12.px-5
+          p.my-5 A continuación, entérese de cuáles son los instrumentos más relevantes para evaluar la calidad de un proceso gráfico, los cuales se encuentran diferenciados así: dispositivos para medición y control de materiales, medidores en los equipos e indicadores de control de calidad:
+          .row.mb-5
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/tema2/img2.svg', style="width: 450px").m-auto
+            .col-lg-8
+              AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
+                .row(titulo="Dispositivos para medición y control de materiales")
+                  .col-12
+                    .p-4
+                      ul.lista-ul
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Higrómetro de espada]: mide humedad de pilas, excesos de problemas de registro y defectos de problemas de plegado.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Micrómetro]: mide volumen de materiales.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Medidor de pH]: mide el potencial de hidrógeno de recursos de mojado y de papel.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Conductímetro]: hace una relación del paso de corriente con el aspecto de un nivel determinado de sales.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p #[b Medidor de gramaje]: mide peso del papel, de acuerdo con su unidad de superficie, la cual está dada en gramos.
+                .row(titulo="Medidores en los equipos")
+                  .col-12
+                    .p-4
+                      ul.lista-ul
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Medidor de presión] plancha-mantilla.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Medidor de espesor de tinta]: hace referencia a la medida de rodillo distribuidor de la batería de entintado.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Galgas para ajuste de rodillos]: se encarga de medir la presión sobre la plancha.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p #[b Durómetro]: mide la dureza de los rodillos de tinta en grados SHORE, con una escala de 0 a 100.
+                .row(titulo="Dispositivos para medición y control de materiales")
+                  .col-12
+                    .p-4
+                      ul.lista-ul
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Tiras de control]: conjunto de imágenes de prueba longitudinales para medir y controlar parámetros de impresión, como la densidad. Se deben usar al momento de hacer pruebas y formas (grafías) de impresos para cada función.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Tramado]: cuenta con una serie de indicadores que definen la calidad de la trama (imágenes retocadas en pantalla con el fin de ser impresas).
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Resolución del dispositivo de salida]: spots por pulgada (número de unidades mínimas que puede dibujar el dispositivo).
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p.mb-0 #[b Lineatura (lpi)]: forma del punto, puede ser redondo, cuadrado o elíptico. Es importante utilizar mezclas de las formas.
+                        li 
+                          i.fas.fa-square-full(style="color: #F57C00")
+                          |
+                          p #[b Tipo de tramado]: puede ser convencional o am, estocástico o fm e híbrido (fm en altas luces y transición y am en medios tonos y sombras).
+          .row.mb-5
+            .col-auto.bg-color3
+              h3 Influencia de los materiales
+          .row.mb-5
+            .col-lg-8
+              p La evaluación puede basarse en dos tipos de parámetros: #[span.txt-deco1 la calidad de la copia], en términos de qué tan precisa es con respecto al original, y en #[span.txt-deco1 aplicabilidad]; de esta forma, los aspectos cualitativos se pueden agrupar con los que estén relacionados con la estructura (registro, escalado, soporte, tramado), de acuerdo con el comportamiento de la tinta (transparencia, diferencia de color, nivel de grises), para la transmisión de imágenes (ganancia, ajuste fino, contraste) y color de la imagen (equilibrio, intensidad).
+              p.txt-deco1.mb-5 El progreso hacia el cambio cultural se atribuye, técnicamente, a la calidad general de poder medir a través del equipo apropiado:
+              ul.lista-ul
+                li 
+                  i.fas.fa-square-full(style="color: #F57C00")
+                  |
+                  p.mb-0 La coherencia entre los métodos.
+                li 
+                  i.fas.fa-square-full(style="color: #F57C00")
+                  |
+                  p.mb-0 La previsibilidad de los resultados: a través de la estandarización, mediante la cual se realizan  las impresiones para que los valores sean medibles y aplicables en el proceso de producción.
+                li 
+                  i.fas.fa-square-full(style="color: #F57C00")
+                  |
+                  p La consistencia y/o uniformidad en la calidad de los gráficos, sin importar dónde se impriman.
+            .col-lg-4
+              .titulo-sexto.color-acento-contenido
+                p.mb-0.text-small Programas de estandarización de la calidad y del control del producto
+              figure(data-aos="zoom-in-up")
+                img(src='@/assets/curso/tema2/img2.png', style="width: 450px").m-auto
     .row.bg-color9.mb-5
       .col-12.px-5
         .p-4
