@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Inicio from '../../node_modules/ecored-base-pkg/src/views/Inicio.vue'
+import Inicio from '@/components/Inicio.vue'
 import Curso from '../../node_modules/ecored-base-pkg/src/views/Curso.vue'
 
 Vue.use(VueRouter)
@@ -30,7 +30,7 @@ const router = new VueRouter({
           path: 'tema1',
           name: 'tema1',
           component: () =>
-            import(/* webpackChunkName: "tema1" */ '../views/Tema1.vue'),
+            import(/* webpackChunkName: "tema2" */ '../views/Tema1.vue'),
         },
         {
           path: 'tema2',

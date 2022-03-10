@@ -7,37 +7,45 @@
       .titulo-principal__numero
         span 2
       h1 Control de calidad del proceso
-    .row
-      .col-lg-8
-        p Un atributo de calidad es una característica que contribuye a la idoneidad y propósito de un producto, servicio o proceso. La primera acción a realizar es establecer un sistema de control de calidad con el fin de identificar sus usuarios y las necesidades del producto.
-        p.txt-deco1.mb-5 En este sentido, existen varios tipos de mediciones, que dependen de las características tecnológicas, de calidad, características del producto, en relación con errores, etc. Las más comunes son:
-        SlyderF.mb-5(columnas="col-12 col-lg-6")
-          .tarjeta.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop')
-            p.text-center Las mediciones continuas (especialmente para el producto).
-            br.mb-3
-          .tarjeta.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop')
-            p.text-center De características (el porcentaje del producto elaborado sin defectos; se trata del estado de defectos claramente completos o incompletos).
-          .tarjeta.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop')
-            p.text-center Discapacidad (su magnitud es el número de defectos).
-            br.mb-3
-          .tarjeta.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-8.mb-3
-                img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop')
-            p.text-center.mb-4 Según el número de defectos (insuficientes por acumulación de defectos).
-      .col-lg-4
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto
-    .row.bg-color4
+      
+    .half_bg
+      .row
+        .col-lg-8
+          p Un atributo de calidad es una característica que contribuye a la idoneidad y propósito de un producto, servicio o proceso. La primera acción a realizar es establecer un sistema de control de calidad con el fin de identificar sus usuarios y las necesidades del producto.
+          p.txt-deco1.mb-5 En este sentido, existen varios tipos de mediciones, que dependen de las características tecnológicas, de calidad, características del producto, en relación con errores, etc. Las más comunes son:
+          SlyderF.mb-5(columnas="col-12 col-lg-6")
+            .tarjeta.color-secundario.p-4.hc-100
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop' style="width:90px; margin: 0 auto;")
+              p.text-center Las mediciones continuas (especialmente para el producto).
+              br.mb-3
+            .tarjeta.color-secundario.p-4.hc-100
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop', style="width:90px; margin: 0 auto;")
+              p.text-center De características (el porcentaje del producto elaborado sin defectos; se trata del estado de defectos claramente completos o incompletos).
+            .tarjeta.color-secundario.p-4.hc-100
+              .row.justify-content-center.mb-3
+                .col-8
+                  img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop' style="width:90px; margin: 0 auto;")
+              p.text-center Discapacidad (su magnitud es el número de defectos).
+              br.mb-3
+            .tarjeta.color-secundario.p-4.hc-100
+              .row.justify-content-center.mb-3
+                .col-8.mb-3
+                  img(src='@/assets/curso/tema2/img1.svg' alt='AvatarTop' style="width:90px; margin: 0 auto;")
+              p.text-center.mb-4 Según el número de defectos (insuficientes por acumulación de defectos).
+
+        .col-lg-4
+          .imagen-adornos-flotantes          
+            img(src='@/assets/curso/tema2/img1.png', style="width: 450px").m-auto   
+            .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+            .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+            .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")
+         
+
+    .row.bg-gradient
       .col-12.px-5
         p.my-5 A continuación, entérese de cuáles son los instrumentos más relevantes para evaluar la calidad de un proceso gráfico, los cuales se encuentran diferenciados así: dispositivos para medición y control de materiales, medidores en los equipos e indicadores de control de calidad:
         .row.mb-5
@@ -115,9 +123,8 @@
                         |
                         p #[b Tipo de tramado]: puede ser convencional o am, estocástico o fm e híbrido (fm en altas luces y transición y am en medios tonos y sombras).
         .row.mb-5
-          .col-8.col-lg-5.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Influencia de los materiales
+          .col-auto.bg-color3
+            h3 Influencia de los materiales
         .row.mb-5
           .col-lg-8
             p La evaluación puede basarse en dos tipos de parámetros: #[span.txt-deco1 la calidad de la copia], en términos de qué tan precisa es con respecto al original, y en #[span.txt-deco1 aplicabilidad]; de esta forma, los aspectos cualitativos se pueden agrupar con los que estén relacionados con la estructura (registro, escalado, soporte, tramado), de acuerdo con el comportamiento de la tinta (transparencia, diferencia de color, nivel de grises), para la transmisión de imágenes (ganancia, ajuste fino, contraste) y color de la imagen (equilibrio, intensidad).
@@ -180,8 +187,12 @@
                     span(style="color: #000000 !important") Descargar
                     i(style="color: #000000 !important").fas.fa-file-download
       .col-lg-4
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema2/img3.png', style="width: 500px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema2/img3.png', style="width: 500px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")
+        
     .separador.mb-5
     #t_2_2
     .titulo-segundo.color-secundario
@@ -198,13 +209,14 @@
               img(src='@/assets/curso/tema2/img5.svg', style="width: 600px").m-auto
     .row.mb-5
       .col-lg-4
+        
         figure.mb-4.mb-lg-0(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img4.png', style="width: 600px").m-auto
+
       .col-lg-8
-        .row.mb-4
-          .col-11.col-lg-6.bg-color3
-            .p-4
-              h3.mb-0.mt-3 El proceso de producción gráfica
+        .row.mb-5
+          .col-auto.bg-color3
+            h3.mb-0.mt-3 El proceso de producción gráfica
         p La producción gráfica es un proceso complejo, que integra numerosas fases. Se inicia con la redacción del #[i briefing] por parte del cliente y concluye con la entrega del producto impreso.
         p Para profundizar en los elementos clave de las fases del proceso de producción gráfica, explore el recurso que se muestra a continuación:
     figure.mb-5
@@ -215,10 +227,9 @@
         figure.mb-4.mb-lg-0(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img5.png', style="width: 600px").m-auto
       .col-lg-8
-        .row.mb-4
-          .col-9.col-lg-5.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Postimpresión
+        .row.mb-5
+          .col-auto.bg-color3
+            h3.mb-0.mt-3 Postimpresión
         p.mb-5 Al concluir la impresión de un producto, suelen quedar detalles de acabados por revisar; algunos de los más comunes son:
         LineaTiempoD.color-secundario
           p.text-small(numero="1" titulo="Tratamiento de superficie") Esta función hace referencia a la protección del producto. Protegerlo de suciedades y proteger los acabados que lleve el producto impreso.
@@ -238,16 +249,20 @@
     .row.mb-5
       .col-lg-7
         p Un fichero o archivo de datos es una recopilación de registros, afines entre sí, con aspectos en común y organizados con un propósito concreto.
-        p.txt-deco1 Un fichero, en un ordenador, es una estructura creada para la contención de datos; y se encuentra organizado de tal manera que se puede recuperar, actualizar, eliminar y volver a almacenar fácilmente en el archivo con cualquier cambio realizado.
+        p.txt-deco1.mb-5 Un fichero, en un ordenador, es una estructura creada para la contención de datos; y se encuentra organizado de tal manera que se puede recuperar, actualizar, eliminar y volver a almacenar fácilmente en el archivo con cualquier cambio realizado.
         .row.mb-4
-          .col-9.col-lg-5.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Organización de archivos
+          .col-auto.bg-color3
+            h3 Organización de archivos
         p Cuando se habla de archivos u organización de archivos, se hace referencia a los soportes, en medio físico, donde se almacenan los datos. En la gestión de ficheros, suele haber dos tipos principales de soportes: soportes secuenciales y soportes direccionables.
         p En la organización de archivos o ficheros, se deben tener en cuenta los siguientes aspectos:
+
       .col-lg-5
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema2/img6.png', style="width: 600px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema2/img6.png', style="width: 600px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")        
+
     .row.bg-color4.mb-5
       .col-12.px-5
         SlyderE(indicadores="izquierda").my-4
@@ -313,10 +328,9 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img13.png', style="width: 600px").m-auto
       .col-lg-7
-        .row.mb-4
-          .col-9.col-lg-8.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Organización secuencial
+        .row.mb-5
+          .col-auto.bg-color3
+            h3 Organización secuencial
         p Un fichero de organización secuencial es una continuación de registros que se encuentran almacenados, consecutivamente, sobre el soporte externo. Para poder acceder a un registro #[span.txt-deco1 N] transmitido es necesario recorrer todos los #[span.txt-deco1 N-1] artículos que le anteceden.
         p.txt-deco1.mb-4 Los registros se graban de forma consecutiva en el momento en que el archivo es creado y se debe acceder consecutivamente al momento de leer los registros. Es decir:
         ul.lista-ul
@@ -332,46 +346,45 @@
             i.fas.fa-square-full(style="color: #F57C00")
             |
             p.mb-0 Los ficheros secuencialmente organizados cuentan con un registro específico, ya que el último presenta una marca fin de archivo (EOF o bien FF). El cual cuenta con carácter especial, como ‘ * ‘.
-    .row.mb-4
-      .col-9.col-lg-4.bg-color3
-        .p-4
-          h3.mb-0.mt-3 Organización directa
+    .row.mb-5
+      .col-auto.bg-color3
+        h3.mb-0.mt-3 Organización directa
     .row.mb-4.mb-lg-0
       .col-lg-7
         p En los ficheros que se organizan con carácter directo, puede no coincidir el orden físico con el orden lógico. Los datos están en el archivo y se puede acceder directamente a ellos de forma aleatoria, según su ubicación, es decir, la ubicación relativa que ocupa.
         p.txt-deco1 La organización directa ofrece la gran ventaja de que los registros pueden ser leídos y escritos en cualquier posición y orden. De igual forma, se puede acceder muy rápido a la información que contienen. La organización directa tiene el inconveniente de tener que programar la relación entre el contenido del registro y la ubicación que ocupa.
         p.mb-4 Estos son otros aspectos que, sobre la organización directa, usted debe tener en cuenta:
         SlyderF.mb-5(columnas="col-12 col-lg-6")
-          .tarjeta.color-secundario.p-4
+          .tarjeta.color-secundario.p-4.hc-100
             .row.justify-content-center.mb-3
               .col-8|
-                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop', style="width:90px; margin: 0 auto;")
             p.text-center Acceder a los registros en modo directo significa que puede haber espacios libres en el entorno y, por lo tanto, puede haber espacios entre los registros.
             br
             br
             br
-          .tarjeta.color-secundario.p-4
+          .tarjeta.color-secundario.p-4.hc-100
             .row.justify-content-center.mb-3
               .col-8.mb-3
-                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop' style="width:90px; margin: 0 auto;")
             p.text-center.mb-5 Un fichero de organización directa debe estar almacenado en un soporte direccionable. Los registros deben tener un campo específico llamado clave que identifique de forma única cada registro.
-          .tarjeta.color-secundario.p-4
+          .tarjeta.color-secundario.p-4.hc-100
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop' style="width:90px; margin: 0 auto;")
             p.text-center Dos registros diferentes no pueden tener el mismo valor de clave.
             br
             br
             br.mb-5
-          .tarjeta.color-secundario.p-4
+          .tarjeta.color-secundario.p-4.hc-100
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop' style="width:90px; margin: 0 auto;")
             p.text-center Un soporte direccionable es un disco o un paquete de discos. Cada posición se identifica por su dirección absoluta, que en el caso de un disco, está determinada por dos parámetros: número de sector y número de pista, sector y número de cilindro.
-          .tarjeta.color-secundario.p-4
+          .tarjeta.color-secundario.p-4.hc-100
             .row.justify-content-center.mb-3
               .col-8
-                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
+                img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop' style="width:90px; margin: 0 auto;")
             p.text-center Un cilindro i es el conjunto de pistas de número i de cada plano de almacenamiento de la pila.
             br
             br
@@ -416,18 +429,17 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema2/img14.png', style="width: 450px").m-auto
       .col-lg-8
-        .row.mb-4
-          .col-11.col-lg-6.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Organización secuencial indexada
+        .row.mb-5
+          .col-auto.bg-color3
+            h3.mb-0.mt-3 Organización secuencial indexada
         p Un diccionario es un archivo secuencial cuyos registros son entradas y sus claves son palabras definidas por las entradas. Para buscar una palabra (clave), no se busca una palabra en secuencia (de la “a” hasta “z”), sino que la acción que se realiza, por lo general, es la de buscar una palabra del diccionario de acuerdo con la letra inicial de la palabra.
         p.txt-deco1 Este es un ejemplo de archivo secuencial-indexado con dos niveles de índices. Las iniciales del nivel superior y el nivel inferior hacia arriba, se almacenarán en un archivo de índice separado de las entradas del diccionario (archivos de datos). Por tal razón, un archivo secuencialmente indexado se constituye en un archivo de datos y un archivo índice.
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-auto
         .titulo-sexto.color-acento-contenido
           p.mb-0 Archivo secuencial indexado
         figure
-          img(src='@/assets/curso/tema2/img9.svg', style="width: 700px").m-auto
+          img(src='@/assets/curso/tema2/img9.svg', style="width: 450px").m-auto
     p Para saber si un fichero se encuentra organizado en forma secuencial-indexada, es importante tener presente:
     .row.bg-color10.mb-5
       .col-12.px-5
@@ -460,15 +472,22 @@
                 i.fas.fa-square-full(style="color: #F57C00")
                 |
                 p #[span.txt-deco1 Área de desbordamiento o excedentes]: Se utiliza en caso de realizar actualizaciones
-            .row.justify-content-center.mt-0.mt-lg-5.mb-0.mb-lg-5
+
+            .row.justify-content-center.mt-0.mt-lg-5.mb-0.mb-lg-5.mt-5
               .col-6
                 figure.mb-4
                   img(src='@/assets/curso/tema2/img8.svg', style="width: 100px").m-auto
                 p.text-center.txt-deco1 ¡Tenga en presente!
                 p.text-center Funcionalmente, el espacio del índice es equivalente al índice del libro. Refleja el valor de clave más alto definido para cada grupo de registros en el archivo y la dirección de almacenamiento del grupo.
+
           .col-lg-5
-            figure(data-aos="zoom-in-up")
-              img(src='@/assets/curso/tema2/img15.png', style="width: 480px").m-auto
+            .imagen-adornos-flotantes          
+              img(src='@/assets/curso/tema2/img15.png', style="width: 480px").m-auto   
+              .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+              .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+              .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")        
+            
+
     .separador.mb-5
     #t_2_4
     .titulo-segundo.color-secundario
@@ -479,8 +498,12 @@
         p.txt-deco1 Para crear y ver un PDF, se recomienda contar con el #[i software] adecuado, instalado en un computador. Adobe Acrobat es la herramienta más conocida y con mejores resultados al momento de enviar los archivos al proceso de impresión.
         p A continuación, se mencionan los términos relacionados para una impresión en un formato PDF:
       .col-lg-5
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema2/img11.svg', style="width: 450px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema2/img11.svg', style="width: 450px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")     
+
     .row.mb-5
       .col-lg-6
         .row.align-items-center.mb-4
@@ -552,10 +575,9 @@
         figure
           img(src='@/assets/curso/tema2/img17.svg', style="width: 450px").m-auto
       .col-lg-8
-        .row.mb-4
-          .col-12.col-lg-8.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Crear un archivo PDF para imprenta
+        .row.mb-5
+          .col-auto.bg-color3
+            h3.mb-0.mt-3 Crear un archivo PDF para imprenta
         p Existen varias formas de crear un archivo PDF adecuado para poder imprimir documentos y artes finales en el ámbito del diseño y sus vertientes; el estándar que más se ha utilizado en artes gráficas es el PDF/X, esta es la forma recomendada para llevar un proyecto de una empresa a la imprenta.
         p.txt-deco1 Por lo general, los programas de diseño exportan y guardan los archivos directamente como PDF/X. Lo recomendado es que las letras (fuentes) se deben convertir a curvas (vectores) y toda imagen debe contener un mínimo de 300 ppp (pixeles por pulgada) de resolución.
     .row.bg-color9.mb-5
@@ -582,15 +604,19 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/v2tHOqnqh60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.align-items-end.mb-5
       .col-lg-8
-        .row.mb-4
-          .col-12.col-lg-8.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Errores frecuentes en PDFs para imprenta
+        .row.mb-5
+          .col-auto.bg-color3
+              h3 Errores frecuentes en PDFs para imprenta
         p Al momento de llevar un documento a la impresora, es mejor enviar un archivo PDF que un archivo abierto, esto evita el riesgo de problemas como errores tipográficos o errores de enlaces e imágenes, entre otros. Pero, incluso un archivo PDF, debe tener los requisitos mínimos para obtener una impresión precisa del arte final, sin importar qué #[i software] utiliza para crearlo.
         p Estos son los errores más comunes al momento de hacer el proceso de impresión:
       .col-lg-4
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema2/img19.svg', style="width: 450px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema2/img19.svg', style="width: 450px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 0% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")
+        
+
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 1] Errores comunes en impresión de PDF
     .tabla-b.color-acento-contenido

@@ -13,8 +13,12 @@
         .cajon.color-primario.p-4.mb-4.mb-lg-0
           p.mb-0 La comunicación del color es subjetiva; para percibir el color, el ojo humano requiere de tres elementos: luz, visión y objeto, si no existen estos tres, no se podrá percibir el color. La medición de color hace énfasis en la definición de los esquemas numéricos, con los cuales comunican dicha información electrónicamente, potenciando el control de la impresión.
       .col-lg-6
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema1/img1.png', style="width: 600px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema1/img1.png', style="width: 600px")   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")  
+
     .row.justify-content-center.align-items-center.bg-color2.mb-5
       .col-lg-3.mb-4.mb-lg-0
         h3.mb-0.text-center Tenga en cuenta estos aspectos conceptuales de gran importancia:
@@ -23,9 +27,9 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-3
-              p.mt-4 El ojo humano logra ver luz siempre y cuando cuente con un rango visible adecuado; sin embargo, luz no es lo mismo que color.
-              br
+            .tarjeta-flip__contenido.p-4.p-xl-3                         
+              
+              p.mt-5 El ojo humano logra ver luz siempre y cuando cuente con un rango visible adecuado; sin embargo, luz no es lo mismo que color.
               br
               br
       .col-8.col-lg-3.mb-4.mb-lg-0
@@ -43,9 +47,8 @@
             .tarjeta-flip__contenido.p-4.p-xl-3
               p El método con el cual se miden los colores se designa método triestímulo; los colorímetros que utilizan este método están delineados para medir la luz; podría decirse que es la misma forma en el que el ojo humano puede percibir la luz.
     .row.mb-5
-      .col-11.col-lg-4.bg-color3
-        .p-4
-          h3.mb-0.mt-3 El color y sus componentes
+      .col-auto.bg-color3        
+        h3 El color y sus componentes
     p.mb-5 Es importante contar con tres componentes básicos para que el color exista: luz, visión y objeto. A continuación, profundice en aspectos relevantes y fundamentales sobre estos elementos y su relación con el color:
     .row.bg-color4.mb-5
       .col-12.px-5
@@ -80,9 +83,8 @@
               figure
                 img(src='@/assets/curso/tema1/img8.png')
     .row.mb-5
-      .col-9.col-lg-4.bg-color3
-        .p-4
-          h3.mb-0.mt-3 Tipos de instrumentos
+      .col-auto.bg-color3
+        h3 Tipos de instrumentos
     p.mb-5 En cuanto a los medidores de luz y color, existen dos subcategorías. Las de la primera categoría son herramientas basadas en filtros, mientras que las segundas son herramientas basadas en espectros.
     figure.mb-5(data-aos="zoom-in")
       img(src='@/assets/curso/tema1/img9.png', style="width: 700px").m-auto
@@ -161,15 +163,20 @@
               figure
                 img(src='@/assets/curso/tema1/img9.svg', style="width: 1000px").m-auto
     .row.mb-5
-      .col-12.col-lg-4.bg-color3
-        .p-4
-          h3.mb-0.mt-3 Selección del sistema de medición
+      .col-auto.bg-color3
+          h3 Selección del sistema de medición
     .row
       .col-lg-7.mb-4.mb-lg-0
         p Cuando se tiene conocimiento del proceder de la muestra, se podrá elegir la longitud de la onda con el fin de establecer el sensor del tono. En caso de no tener claridad de cuál será la longitud de onda a seleccionar, es importante efectuar un escaneo de extensión de onda VIS con un espectrofotómetro especializado del espectro. #[span.txt-deco1 Se puede elegir la mejor longitud de onda para distinguir la muestra de otras fracciones].
+
       .col-lg-5
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema1/img10.png', style="width: 600px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema1/img10.png', style="width: 600px")   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ") 
+
+        
     p.mb-5 Algunos sensores de color cuentan con longitudes de onda específicas:
     figure.mb-5
       img(src='@/assets/curso/tema1/img11.png', style="width: 800px").m-auto
@@ -309,9 +316,8 @@
                 p.text-center #[b Valores más altos o más bajos de matiz]
                 p.text-center Si se encuentran valores más altos de matiz o grisura de las tintas en otro lote impreso, se puede saber con certeza que el tono de la impresión será diferente, lo que resultará en una mala calidad de impresión y posiblemente la decisión de devolver el producto.
     .row.mb-5
-      .col-12.col-lg-4.bg-color3
-        .p-4
-          h3.mb-0.mt-3 Tipos y usos de densitómetros
+      .col-auto.bg-color3
+          h3 Tipos y usos de densitómetros
     p.mb-5 Principalmente, se encuentran dos tipos de densitómetros:
     .row.bg-color8
       .col-12.px-5
@@ -358,18 +364,23 @@
                     figure
                       img(src='@/assets/curso/tema1/img17.png', style="width: 400px").m-auto
     .row.mb-5
-      .col-9.col-lg-4.bg-color3
-        .p-4
-          h3.mb-0.mt-3 Espectrofotómetros
+      .col-auto.bg-color3
+          h3 Espectrofotómetros
     .row.align-items-center.mb-5
       .col-lg-6
         p.mb-4 Un espectrofotómetro es un dispositivo colorimétrico utilizado para conseguir y evaluar colores. Hace énfasis en un programa de control del color; los dueños y diseñadores de marcas lo utilizan para identificar y comunicar los colores determinados y los fabricantes lo utilizan para controlar la precisión del color durante todo el proceso de producción.
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 Estas herramientas están en capacidad de medir cualquier objeto, entre ellos: papeles, líquidos, telas, metales, plásticos, garantizando que el color se conserve estable y consistente desde el momento de realizar la idea inicial hasta la entrega final del producto. La curva de reflectancia espectral proporcionada por un espectrofotómetro a menudo se denomina #[span.txt-deco1 “huella digital de color”].
+          p.mb-0 Estas herramientas están en capacidad de medir cualquier objeto, entre ellos: papeles, líquidos, telas, metales, plásticos, garantizando que el color se conserve estable y consistente desde el momento de realizar la idea inicial hasta la entrega final del producto. La curva de reflectancia espectral proporcionada por un espectrofotómetro a menudo se denomina #[strong “huella digital de color”].
         p.mb-0 Tenga en cuenta que la elección del tipo de espectrofotómetro depende de la aplicación que se quiera dar, las funciones requeridas y la portabilidad. Estos tienen variedad de tamaños y pueden ser portátiles o para escritorio. Estos son los tipos de espectrofotómetros más comunes y usados:
+
       .col-lg-6.mb-5
-        figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema1/img18.png', style="width: 500px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema1/img18.png', style="width: 600px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")         
+       
+
     .row.bg-color4.mb-5
       .col-12.px-5
         SlyderE(indicadores="izquierda").my-4
@@ -406,9 +417,14 @@
           p.text-small(numero="5" titulo="Detector") Se encarga de detectar algún tipo de radiación, dejando la evidencia de su existencia con el fin de ser estudiada (cuenta con dos tipos: unos responden al calor y otros a fotones).
           p.text-small(numero="6" titulo="Registrador") Transforma el fenómeno físico en números iguales al analito, que es el componente (elemento, compuesto o ion) en cuestión de estudio.
           p.text-small(numero="7" titulo="Fotodetectores") Son instrumentos modernos, cuentan con una serie de 16 fotodetectores que detectan, simultáneamente, señales en 16 longitudes de onda, permitiendo cubrir el espectro visible, reduciendo los tiempos de medida.
+
       .col-lg-4
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema1/img22.png', style="width: 500px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema1/img22.png', style="width: 500px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")
+
     .separador.mb-5
     #t_1_3
     .titulo-segundo.color-secundario
@@ -430,8 +446,12 @@
                     span(style="color: #000000 !important") Descargar
                     i(style="color: #000000 !important").fas.fa-file-download
       .col-lg-4
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema1/img23.png', style="width: 500px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema1/img23.png', style="width: 500px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")
+
   
 </template>
 

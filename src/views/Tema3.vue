@@ -91,10 +91,9 @@
         p Para determinar qué tira de control es la apropiada para una impresión de un diseño, es importante tener en cuenta estos cuatro parámetros: ancho máximo de pliego, número de llaves para entintado, ancho de las llaves para entintado y tamaño de parche que puede medir el instrumento.
     .row.mb-5
       .col-lg-7
-        .row.mb-4
-          .col-12.col-lg-5.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Tipos de parche
+        .row.mb-5
+          .col-auto.bg-color3
+            h3.mb-0.mt-3 Tipos de parche
         p Los parches son un elemento que se usa para hacer verificación de las particularidades y características que tienen las tintas de selección. Buscan determinar si estas características son las adecuadas cuando interactúan entre sí.
         p Estos son los tipos de parches utilizados en una tira de control, al momento de realizar un impreso:
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -127,10 +126,9 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/img9.png', style="width: 484 .0px").m-auto
       .col-lg-7
-        .row.mb-4
-          .col-12.col-lg-6.bg-color3
-            .p-4
-              h3.mb-0.mt-3 Dispositivo de control
+        .row.mb-5
+          .col-auto.bg-color3
+            h3 Dispositivo de control
         p La tira de control de medios CMYK V2.0 de Ugra/FOGRA es adecuada para controlar pruebas de impresiones digitales. También se puede utilizar como un sistema de control digital para monitorear los efectos del procesamiento de imágenes CMYK y otros tipos de impresión.
         p Para aceptar pruebas de color vinculantes, se deben seguir las recomendaciones de la agencia del organismo Medien Standard Druck. Una prueba vinculante se considerará como tal cuando, por ejemplo, contenga una tira de control de medios CMYK de Ugra/FOGRA y los valores CIELAB obtenidos no excedan los límites de tolerancia. Los valores tonales CMYK de la tira de control versión 2.0 de Ugra/FOGRA se basan en los valores de la norma internacional #[span.txt-deco1 ISO 12642].
     p.mb-5 A continuación, se muestran las tiras de control y la aplicación correspondiente en cada impresión:
@@ -142,6 +140,7 @@
               p se utiliza únicamente para impresos de un solo color.
               figure
                 img(src='@/assets/curso/tema3/img1.svg', style="width: 450px")
+                
           .row(numero="2" titulo="Tira de control color sólido")
             .col-12
               p Se utiliza únicamente para impresos de un solo color.
@@ -153,8 +152,12 @@
               figure
                 img(src='@/assets/curso/tema3/img3.svg', style="width: 450px")
       .col-lg-4
-        figure(data-aos="zoom-in-up")
-          img(src='@/assets/curso/tema3/img10.png', style="width: 450px").m-auto
+        .imagen-adornos-flotantes          
+          img(src='@/assets/curso/tema3/img10.png', style="width: 450px").m-auto   
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: ; right: 5% ; top: ; bottom: 10% ; width: 90px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float5.png" style="left: 10% ; right: ; top:0 ; bottom: ; width: 60px ")
+          .imagen-adornos-flotantes__img: img(src="@/assets/curso/float3.png" style="left: 0% ; right: ; top: ; bottom: 2% ; width: 60px ")
+        
 
 </template>
 
