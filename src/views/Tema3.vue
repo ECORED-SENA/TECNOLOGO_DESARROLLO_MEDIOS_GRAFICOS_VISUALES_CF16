@@ -19,13 +19,13 @@
     p.mb-5 A continuación, ahonde en las generalidades y aspectos clave de las principales áreas de trabajo de impresión y de los estándares de impresión:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/AWJoSe3euUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/u5JON-EXLaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_3_1
     .titulo-segundo.color-secundario
       h2 3.1 Densidad tonal
     .row
       .col-lg-8
-        p La densidad de la tinta es la cantidad de tinta utilizada para la impresión de un diseño, es decir, si se quisiera un área amarilla en un diseño determinado, se recomienda usar 100% amarillo. En este caso, la densidad de la tinta será del 100%. El amarillo es un buen ejemplo, puesto que corresponde a uno de los cuatro colores CMYK.
+        p La densidad de la tinta es la cantidad de tinta utilizada para la impresión de un diseño, es decir, si se quisiera un área amarilla en un diseño determinado, se recomienda usar 100 % amarillo. En este caso, la densidad de la tinta será del 100 %. El amarillo es un buen ejemplo, puesto que corresponde a uno de los cuatro colores CMYK.
         p.txt-deco1 Entérese, ahora, de algunos aspectos que, sobre densidad tonal, hay que tener en cuenta en los procesos de impresión de diseño:
       .col-lg-4
         figure(data-aos="zoom-in-up")
@@ -60,7 +60,7 @@
           .row
             .col-md-6.mb-4.mb-md-0
               h3.mt-5.txt-deco1 Balance de grises
-              p Proporción de combinaciones porcentuales de las tintas Cyan, Magenta y Amarillo, al momento de seleccionar un color para conseguir un gris neutro. Realizado el balance de grises, todos los colores obtenidos en las sobreimpresiones se obtendrán mediante la interacción de los parámetros especificados en la escala de grises. Se debe medir el balance de grises porque la percepción del color en cada individuo es diferente.
+              p Proporción de combinaciones porcentuales de las tintas Cian, Magenta y Amarillo, al momento de seleccionar un color para conseguir un gris neutro. Realizado el balance de grises, todos los colores obtenidos en las sobreimpresiones se obtendrán mediante la interacción de los parámetros especificados en la escala de grises. Se debe medir el balance de grises porque la percepción del color en cada individuo es diferente.
             .col-md-6
               .p-1
                 figure
@@ -76,7 +76,7 @@
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-5(titulo="Medición")
         h4 Medición
-        p Se debe medir con ellas al configurar la máquina y tomar la primera página, a intervalos regulares, mientras se ejecuta la impresión, para verificar las áreas de volumen para cada color, percentiles 25 y 50, el contraste de impresión y la superposición de colores a granel, y después de los ajustes de tinta o después de parar, para comprobar la relación punto y contraste 25-50%.
+        p Se debe medir con ellas al configurar la máquina y tomar la primera página, a intervalos regulares, mientras se ejecuta la impresión, para verificar las áreas de volumen para cada color, percentiles 25 y 50, el contraste de impresión y la superposición de colores a granel, y después de los ajustes de tinta o después de parar, para comprobar la relación punto y contraste 25-50 %.
       .tarjeta.color-acento-botones--borde.p-5(titulo="Tira de control")
         h4 Tira de control
         p La tira de control está impresa en un extremo del papel y está destinada a proporcionar al impresor instrucciones sobre la calidad de impresión; se ubica de modo perpendicular a la orientación del papel en la máquina.
@@ -85,7 +85,7 @@
         p Las tiras de control ajustan campos de tono lleno y varios campos de trama en las tintas de impresión; cuentan con elementos guía (señales) para el control visual. Algunos impresores modifican y crean tipos especiales de tiras de control para trabajos específicos, pero comúnmente se utilizan algunas convenciones estándar.
       .tarjeta.color-acento-botones--borde.p-5(titulo="Reproducción del color")
         h4 Reproducción del color
-        p Las tiras ocupan una pequeña parte del papel de impresión, pero siempre es necesario incluir un mínimo que permita controlar la reproducción del color; este rango mínimo debe incluir, al menos, parches de tono uniforme y un 75% de puntos para cada tinta impresa. El ancho de las tiras de control puede variar de 3 a 12 mm.
+        p Las tiras ocupan una pequeña parte del papel de impresión, pero siempre es necesario incluir un mínimo que permita controlar la reproducción del color; este rango mínimo debe incluir, al menos, parches de tono uniforme y un 75 % de puntos para cada tinta impresa. El ancho de las tiras de control puede variar de 3 a 12 mm.
       .tarjeta.color-acento-botones--borde.p-5(titulo="Oportunidad de la tira en la impresión")
         h4 Oportunidad de la tira en la impresión
         p Para determinar qué tira de control es la apropiada para una impresión de un diseño, es importante tener en cuenta estos cuatro parámetros: ancho máximo de pliego, número de llaves para entintado, ancho de las llaves para entintado y tamaño de parche que puede medir el instrumento.
@@ -105,10 +105,10 @@
               p Porcentaje de puntos representativos que, generalmente, se eligen como 25 %, 40 %, 50 % 75 % y 80 %, los cuales se encargan de vigilar el proceso de impresión y la ganancia de punto que se obtiene en el proceso.
           .row(titulo="Parches de atrape")
             .col-12
-              p Usados para trabajos de selección CMYK. Se componen de un 100% de dos de los tres colores de selección; este tipo de parche se utiliza para comprobar la consistencia de las propiedades mecánicas de las tintas seleccionadas cuando interactúan entre sí.
+              p Usados para trabajos de selección CMYK. Se componen de un 100 % de dos de los tres colores de selección; este tipo de parche se utiliza para comprobar la consistencia de las propiedades mecánicas de las tintas seleccionadas cuando interactúan entre sí.
           .row(titulo="Parches de balance de grises")
             .col-12
-              p Se encargan de ser neutros al momento de imprimir. Sólo se utilizan en tiras de frecuencia para trabajos de selección y se utilizan, principalmente, para certificados de clase G7.
+              p Se encargan de ser neutros al momento de imprimir. Solo se utilizan en tiras de frecuencia para trabajos de selección y se utilizan, principalmente, para certificados de clase G7.
           .row(titulo="Parches de deslizamiento y doblado")
             .col-12
               p Usados para establecer la ganancia de punto agregado que se genera a partir de una falla en el envío y la recepción de pliegos entre los módulos de impresión.
@@ -137,7 +137,7 @@
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Tira de control color negro")
             .col-12
-              p se utiliza únicamente para impresos de un solo color.
+              p Se utiliza únicamente para impresos de un solo color.
               figure
                 img(src='@/assets/curso/tema3/img1.svg', style="width: 450px")
                 

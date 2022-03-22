@@ -144,7 +144,7 @@
         p La colorimetría primaria se basa en la comparación con estándares de color existentes. El ojo humano es un indicador de color muy individual, por ejemplo, para determinar si algo es verde o si, en cambio, es ligeramente amarillo. #[span.txt-deco1 El color reproducible es indistinguible si no se mide en condiciones específicas. El rango de longitud de onda visible es de aproximadamente 380-740 nm, mientras que el ojo humano no puede ver los rayos ultravioleta e infrarrojos].
         p.mb-5 Amplíe sus conocimientos, en lo referente a sistemas de medición, explorando con atención el recurso que se le presenta a continuación:
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Modos de color") Existen algunas definiciones de modos de color, tal como RGB (coloración aditiva) o CMYK (coloración sustractiva), no sólo tratan del color en sí, también hay cuantificaciones que se encargan de describir las diferencias entre: luminosidad, saturación y brillo. 
+          p.text-small(numero="1" titulo="Modos de color") Existen algunas definiciones de modos de color, tal como RGB (coloración aditiva) o CMYK (coloración sustractiva), no solo tratan del color en sí, también hay cuantificaciones que se encargan de describir las diferencias entre: luminosidad, saturación y brillo. 
           p.text-small(numero="2" titulo="Normatividad asociada al color") Para señales de tráfico y seguridad, por ejemplo, existe la norma DIN EN ISO 7010, la cual determina los colores que se utilizarán. Existen muchos estándares con definiciones de color para la mayoría de los productos.
           p.text-small(numero="3" titulo="Control de calidad de productos") En caso de comparar dos productos de la industria para comprobar que tengan el 100% del mismo color, se necesita una técnica de medición precisa para comprobar si los colores son repetibles; para ello, es importante realizar un control de calidad con el fin de obtener acertadamente la medición del color.
           p.text-small(numero="4" titulo="En procesos de limpieza") Si se inicia un paso de limpieza (CIP), un sensor de color puede identificar rápidamente si la muestra de color aún está presente en la línea de producción o si las tuberías y los recipientes están limpios.
@@ -193,7 +193,7 @@
           .tarjeta.color-acento-botones--borde.p-4(titulo="Color Gardner")
             h4 Color Gardner
             p Esta escala de colores describe el color amarillo que presenta un líquido transparente, el cual varía de 1 a 18, siendo 1 amarillo claro y 18 marrón oscuro. La norma ASTM D 1544 (método de prueba estándar para el color de líquidos claros) describe un filtro de vidrio, en comparación con un líquido amarillo, y la norma ASTM D6045 define la relación con un colorímetro Gardner.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="Color Gardner")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Color CIELAB")
             h4 Color CIELAB
             p El espacio de color L*a*b* (CIELAB, CIEL*a*b*, Lab colors) hace una descripción detallada de todos los colores visibles, manejando un área tridimensional. Allí la luminosidad L* se ubica verticalmente sobre la capa de color (a*, b*), dicha escala de colores se representa en EN ISO 11664-4 “Colorimetría CIE 1976 L*a*b* Espacio de color”.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Método ICUMSA")

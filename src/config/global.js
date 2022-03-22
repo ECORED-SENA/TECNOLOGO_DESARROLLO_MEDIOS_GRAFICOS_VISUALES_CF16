@@ -104,7 +104,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -195,7 +195,7 @@ export default {
     },
     {
       referencia:
-        'Oposinet. (s. f.). <em>Tema 13 - Ficheros. tipos, características, organizaciones</em>.',
+        'Oposinet. (s. f.). <em>Tema 13 - Ficheros. Tipos, características, organizaciones</em>.',
       link:
         'https://www.oposinet.com/temario-de-informatica/temario-1-informatica/tema-13-ficheros-tipos-caractersticas-organizaciones/',
     },
@@ -255,7 +255,7 @@ export default {
     {
       termino: 'PDF',
       significado:
-        'Portable Document Format, es un formato de almacenamiento para documentos digitales. Facilita el intercambio de documentación digital de manera fiable, independientemente del <em>software</em>, el <em>hardware</em> o el sistema operativo que haya generado el archivo original, o la plataforma que lo reciba para su lectura.',
+        ' Portable Document Format, es un formato de almacenamiento para documentos digitales. Facilita el intercambio de documentación digital de manera fiable, independientemente del <em>software</em>, el <em>hardware</em> o el sistema operativo que haya generado el archivo original, o la plataforma que lo reciba para su lectura.',
     },
     {
       termino: 'Tira de control',
@@ -283,7 +283,7 @@ export default {
     },
     {
       texto:
-        'Lazcano, B. (2020). <em>Curso de colorimetría fondos de decoloración clase num.1</em> [Video]. YouTube.',
+        'Lazcano, B. (2020). <em>Curso de colorimetría fondos de decoloración clase núm.1</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ZWLOFFhl5PY',
     },

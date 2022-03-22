@@ -221,7 +221,7 @@
         p Para profundizar en los elementos clave de las fases del proceso de producción gráfica, explore el recurso que se muestra a continuación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/TxWr2PiJ0R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/kR9MgGh6uUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mb-5
       .col-lg-4
         figure.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -241,7 +241,7 @@
     p.mb-5 Visualice el video que aquí se propone; fue elaborado para que usted ahonde en los aspectos y elementos más importantes de la producción gráfica. ¡Adelante!
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/-GO_Y76R6kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TxWr2PiJ0R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .separador.mb-5
     #t_2_3
     .titulo-segundo.color-secundario
@@ -467,17 +467,17 @@
               li 
                 i.fas.fa-square-full(style="color: #F57C00")
                 |
-                p.mb-0 #[span.txt-deco1 Área de índices]: Es una tabla con niveles de índice, contiene algunos índices asociativos a los que se les llama nivel de indexación.
+                p.mb-0 #[span.txt-deco1 Área de índices]: es una tabla con niveles de índice, contiene algunos índices asociativos a los que se les llama nivel de indexación.
               li 
                 i.fas.fa-square-full(style="color: #F57C00")
                 |
-                p #[span.txt-deco1 Área de desbordamiento o excedentes]: Se utiliza en caso de realizar actualizaciones
+                p #[span.txt-deco1 Área de desbordamiento o excedentes]: se utiliza en caso de realizar actualizaciones.
 
             .row.justify-content-center.mt-0.mt-lg-5.mb-0.mb-lg-5.mt-5
               .col-6
                 figure.mb-4
                   img(src='@/assets/curso/tema2/img8.svg', style="width: 100px").m-auto
-                p.text-center.txt-deco1 ¡Tenga en presente!
+                p.text-center.txt-deco1 ¡Tenga en cuenta!
                 p.text-center Funcionalmente, el espacio del índice es equivalente al índice del libro. Refleja el valor de clave más alto definido para cada grupo de registros en el archivo y la dirección de almacenamiento del grupo.
 
           .col-lg-5
@@ -606,7 +606,7 @@
       .col-lg-8
         .row.mb-5
           .col-auto.bg-color3
-              h3 Errores frecuentes en PDFs para imprenta
+              h3 Errores frecuentes en PDF para imprenta
         p Al momento de llevar un documento a la impresora, es mejor enviar un archivo PDF que un archivo abierto, esto evita el riesgo de problemas como errores tipográficos o errores de enlaces e imágenes, entre otros. Pero, incluso un archivo PDF, debe tener los requisitos mínimos para obtener una impresión precisa del arte final, sin importar qué #[i software] utiliza para crearlo.
         p Estos son los errores más comunes al momento de hacer el proceso de impresión:
       .col-lg-4
