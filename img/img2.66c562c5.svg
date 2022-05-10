@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="79.046" viewBox="0 0 85 79.046">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.58" y1="1.588" x2="0.671" y2="0.328" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26ccda"/>
+      <stop offset="1" stop-color="#054f56"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.353" y1="0.375" x2="1.812" y2="1.617" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26ccda"/>
+      <stop offset="1" stop-color="#10909b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.14" y1="-0.152" x2="-0.162" y2="1.174" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#26ccda"/>
+      <stop offset="1" stop-color="#18868f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.289" y1="0.206" x2="0.786" y2="0.899" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e07612"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_142566" data-name="Grupo 142566" transform="translate(17.825 -177.305)">
+    <path id="Trazado_115638" data-name="Trazado 115638" d="M66.264,231.128,24.839,252.955l-30.833-9.686L35.433,221.44Z" transform="translate(0.91 3.396)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_115639" data-name="Trazado 115639" d="M36.343,224.836-5.084,246.665l-12.741-47.533L23.6,177.3Z" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+    <g id="Grupo_82127" data-name="Grupo 82127" transform="translate(23.602 177.305)">
+      <path id="Trazado_115640" data-name="Trazado 115640" d="M51.473,186.991l12.741,47.533-30.832-9.688L20.642,177.3Z" transform="translate(-20.642 -177.305)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <path id="Trazado_115641" data-name="Trazado 115641" d="M21.222,179.469l12.117,45.2S27.894,196.823,21.222,179.469Z" transform="translate(3.005 0.167)" fill="url(#linear-gradient-4)" style="mix-blend-mode: overlay;isolation: isolate"/>
+  </g>
+</svg>
